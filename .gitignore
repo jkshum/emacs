@@ -8,6 +8,7 @@ tramp
 elpa
 swank
 emms
+*#
 site-lisp/adventur-mode
 *.elc
 .DS_Store

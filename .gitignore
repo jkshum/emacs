@@ -1,0 +1,15 @@
+auto-save-list
+backups
+el-get
+*~
+.places
+session.*
+tramp
+elpa
+swank
+emms
+site-lisp/adventur-mode
+*.elc
+.DS_Store
+.yas-compiled-snippets.el
+.cask

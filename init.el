@@ -1,6 +1,6 @@
 ;(setq debug-on-error t)
 (setenv "PATH" "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/usr/local/share/npm/bin")
-; list the packages you want
+
 (setq package-list  '(zenburn-theme
                       ace-jump-mode
                       multiple-cursors
@@ -22,8 +22,6 @@
 ; activate all the packages (in particular autoloads)
 (package-initialize)
 
-;bind to command 
-
 ;el-get
 (add-to-list 'load-path "~/.emacs.d/el-get/el-get")
 (unless (require 'el-get nil 'noerror)
@@ -44,12 +42,13 @@
 (setq mac-command-modifier 'meta) ; sets the Command key to Meta
 (global-set-key (kbd "M-`") 'other-frame)
 (global-set-key (kbd "C-h") 'backward-delete-char)
+(global-set-key (kbd "C-?") help-map)
 (global-set-key (kbd "M-h") 'backward-kill-word)
 (global-set-key (kbd "C-M-n") 'down-list)
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-c C->") 'set-rectangular-region-anchor)
-
+(global-set-key (kbd "C-0") 'ace-jump-mode)
 (global-set-key (kbd "C-x C-i") 'idomenu)
 (windmove-default-keybindings)
 (setq windmove-wrap-around t )
@@ -67,15 +66,11 @@
 (load-theme 'zenburn)
 (add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
 
-;ace jump
-(define-key global-map (kbd "C-0") 'ace-jump-mode)
-
 ;ido
 (ido-mode 1)
 (setq ido-enable-flex-matching t)
 (setq ido-everywhere t)
 (autoload 'idomenu "idomenu" nil t)
-
 
 ;recent
 (global-set-key (kbd "C-x C-r") 'ido-recentf-open)
@@ -89,18 +84,10 @@
     (message "Aborting")))
 
 ;auto save desktop session
-;(require 'desktop)
 (desktop-save-mode 1)
-(defun my-desktop-save ()
-  (interactive)
-  ;; Don't call desktop-save-in-desktop-dir, as it prints a message.
-  (if (eq (desktop-owner) (emacs-pid))
-      (desktop-save desktop-dirname)))
-(add-hook 'auto-save-hook 'my-desktop-save)
-
 
 ;python
-(add-hook 'python-mode-hook 'auto-complete-mode)
+;(add-hook 'python-mode-hook 'auto-complete-mode)
 (add-hook 'python-mode-hook 'jedi:ac-setup)
 (add-hook 'after-init-hook #'global-flycheck-mode)
 (setq jedi:server-command '("~/.emacs.d/el-get/jedi/jediepcserver.py"))
@@ -128,7 +115,12 @@
   '(progn
      (define-key paredit-mode-map (kbd "M-s") nil)))
 
-(add-hook 'after-init-hook 'global-company-mode)
+;(add-hook 'after-init-hook 'global-company-mode)
+
+(yas-global-mode 1) ;; or M-x yas-reload-all if you've started YASnippet already.
+
+(setq yas-snippet-dirs
+      '("~/.emacs.d/el-get/yasnippet/snippets"))
 
 (load (expand-file-name "~/quicklisp/slime-helper.el"))
 (setq inferior-lisp-program "/usr/local/bin/sbcl")

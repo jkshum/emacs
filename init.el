@@ -12,13 +12,14 @@
 		      paredit
 		      cider
 		      idomenu
+		      company
                       ))
 
 ; list the repositories containing them
+
 (setq package-archives '(("elpa" . "http://tromey.com/elpa/")
                          ("gnu" . "http://elpa.gnu.org/packages/")
                          ("marmalade" . "http://marmalade-repo.org/packages/")))
-
 ; activate all the packages (in particular autoloads)
 (package-initialize)
 
@@ -118,6 +119,36 @@
 ;(add-hook 'after-init-hook 'global-company-mode)
 
 (yas-global-mode 1) ;; or M-x yas-reload-all if you've started YASnippet already.
+(add-to-list 'ac-modes 'objc-mode)
+;; --- Obj-C switch between header and source ---
+
+(defun objc-in-header-file ()
+  (let* ((filename (buffer-file-name))
+         (extension (car (last (split-string filename "\\.")))))
+    (string= "h" extension)))
+
+(defun objc-jump-to-extension (extension)
+  (let* ((filename (buffer-file-name))
+         (file-components (append (butlast (split-string filename
+                                                         "\\."))
+                                  (list extension))))
+    (find-file (mapconcat 'identity file-components "."))))
+
+;;; Assumes that Header and Source file are in same directory
+(defun objc-jump-between-header-source ()
+  (interactive)
+  (if (objc-in-header-file)
+      (objc-jump-to-extension "m")
+
+    (objc-jump-to-extension "h")))
+
+(defun objc-mode-customizations ()
+  (define-key objc-mode-map (kbd "C-c t") 'objc-jump-between-header-source))
+
+(setq-default c-basic-offset 4)
+
+
+(add-hook 'objc-mode-hook 'objc-mode-customizations)
 
 (setq yas-snippet-dirs
       '("~/.emacs.d/el-get/yasnippet/snippets"))
@@ -139,3 +170,11 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+(defun bp-add-objC-comment ()
+  "Adds the /* -*- mode: objc -*- */ line at the top of the file"
+  (interactive)
+  (objc-mode)
+  (let((p (point)))
+    (goto-char 0)
+    (insert "/* -*- mode: objc -*- */\n")
+    (goto-char (+ p  (length "/* -*- mode: objc -*- */\n")))))

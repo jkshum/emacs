@@ -14,3 +14,7 @@ site-lisp/adventur-mode
 .DS_Store
 .yas-compiled-snippets.el
 .cask
+.#init.el
+.emacs.desktop
+#init.el#
+ac-comphist.dat

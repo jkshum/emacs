@@ -110,11 +110,12 @@
 			    (local-set-key "\C-\M-x" 'js-send-last-sexp-and-go)
 			    (local-set-key "\C-cb" 'js-send-buffer)
 			    (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
-			    (local-set-key "\C-cl" 'js-load-file-and-go)
+			    (local-set-key "\C-c\C-l" 'js-load-file-and-go)
 			    ))
 (eval-after-load 'paredit
   '(progn
      (define-key paredit-mode-map (kbd "M-s") nil)))
+(setenv "NODE_NO_READLINE" "1")
 
 ;(add-hook 'after-init-hook 'global-company-mode)
 

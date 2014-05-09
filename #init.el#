@@ -1,6 +1,6 @@
-;(setq debug-on-error t)
+j;(setq debug-on-error t)
 (setenv "PATH" "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/usr/local/share/npm/bin")
-; list the packages you want
+
 (setq package-list  '(zenburn-theme
                       ace-jump-mode
                       multiple-cursors
@@ -12,17 +12,16 @@
 		      paredit
 		      cider
 		      idomenu
+		      company
                       ))
 
 ; list the repositories containing them
+
 (setq package-archives '(("elpa" . "http://tromey.com/elpa/")
                          ("gnu" . "http://elpa.gnu.org/packages/")
                          ("marmalade" . "http://marmalade-repo.org/packages/")))
-
 ; activate all the packages (in particular autoloads)
 (package-initialize)
-
-;bind to command 
 
 ;el-get
 (add-to-list 'load-path "~/.emacs.d/el-get/el-get")
@@ -44,12 +43,13 @@
 (setq mac-command-modifier 'meta) ; sets the Command key to Meta
 (global-set-key (kbd "M-`") 'other-frame)
 (global-set-key (kbd "C-h") 'backward-delete-char)
+(global-set-key (kbd "C-?") help-map)
 (global-set-key (kbd "M-h") 'backward-kill-word)
 (global-set-key (kbd "C-M-n") 'down-list)
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-c C->") 'set-rectangular-region-anchor)
-
+(global-set-key (kbd "C-0") 'ace-jump-mode)
 (global-set-key (kbd "C-x C-i") 'idomenu)
 (windmove-default-keybindings)
 (setq windmove-wrap-around t )
@@ -67,15 +67,11 @@
 (load-theme 'zenburn)
 (add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
 
-;ace jump
-(define-key global-map (kbd "C-0") 'ace-jump-mode)
-
 ;ido
 (ido-mode 1)
 (setq ido-enable-flex-matching t)
 (setq ido-everywhere t)
 (autoload 'idomenu "idomenu" nil t)
-
 
 ;recent
 (global-set-key (kbd "C-x C-r") 'ido-recentf-open)
@@ -89,18 +85,10 @@
     (message "Aborting")))
 
 ;auto save desktop session
-;(require 'desktop)
 (desktop-save-mode 1)
-(defun my-desktop-save ()
-  (interactive)
-  ;; Don't call desktop-save-in-desktop-dir, as it prints a message.
-  (if (eq (desktop-owner) (emacs-pid))
-      (desktop-save desktop-dirname)))
-(add-hook 'auto-save-hook 'my-desktop-save)
-
 
 ;python
-(add-hook 'python-mode-hook 'auto-complete-mode)
+;(add-hook 'python-mode-hook 'auto-complete-mode)
 (add-hook 'python-mode-hook 'jedi:ac-setup)
 (add-hook 'after-init-hook #'global-flycheck-mode)
 (setq jedi:server-command '("~/.emacs.d/el-get/jedi/jediepcserver.py"))
@@ -128,7 +116,42 @@
   '(progn
      (define-key paredit-mode-map (kbd "M-s") nil)))
 
-(add-hook 'after-init-hook 'global-company-mode)
+;(add-hook 'after-init-hook 'global-company-mode)
+
+(yas-global-mode 1) ;; or M-x yas-reload-all if you've started YASnippet already.
+(add-to-list 'ac-modes 'objc-mode)
+;; --- Obj-C switch between header and source ---
+
+(defun objc-in-header-file ()
+  (let* ((filename (buffer-file-name))
+         (extension (car (last (split-string filename "\\.")))))
+    (string= "h" extension)))
+
+(defun objc-jump-to-extension (extension)
+  (let* ((filename (buffer-file-name))
+         (file-components (append (butlast (split-string filename
+                                                         "\\."))
+                                  (list extension))))
+    (find-file (mapconcat 'identity file-components "."))))
+
+;;; Assumes that Header and Source file are in same directory
+(defun objc-jump-between-header-source ()
+  (interactive)
+  (if (objc-in-header-file)
+      (objc-jump-to-extension "m")
+
+    (objc-jump-to-extension "h")))
+
+(defun objc-mode-customizations ()
+  (define-key objc-mode-map (kbd "C-c t") 'objc-jump-between-header-source))
+
+(setq-default c-basic-offset 4)
+
+
+(add-hook 'objc-mode-hook 'objc-mode-customizations)
+
+(setq yas-snippet-dirs
+      '("~/.emacs.d/el-get/yasnippet/snippets"))
 
 (load (expand-file-name "~/quicklisp/slime-helper.el"))
 (setq inferior-lisp-program "/usr/local/bin/sbcl")
@@ -147,3 +170,11 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+(defun bp-add-objC-comment ()
+  "Adds the /* -*- mode: objc -*- */ line at the top of the file"
+  (interactive)
+  (objc-mode)
+  (let((p (point)))
+    (goto-char 0)
+    (insert "/* -*- mode: objc -*- */\n")
+    (goto-char (+ p  (length "/* -*- mode: objc -*- */\n")))))

@@ -49,3 +49,12 @@ curl -i -L -H "access_token:Timmy Ng" -F "name=photo" -F "filename=photo" -F pho
 curl -i -L -H "access_token:Timmy Ng" -F "name=photo" -F "filename=photo" -F photo="@Tests/photo.png" http://localhost:8080/upload
 curl -X GET  -H "access_token:Simulator" http://localhost:8080/album/5066549580791808/photos
 curl -X GET  -H "access_token:Simulator" http://localhost:8080/album/5066549580791808/photos
+find .gitignore
+find-file .gitignore
+ls 
+ls -al 
+cd modules/
+ls 
+cd js 
+ls 
+ls -al 

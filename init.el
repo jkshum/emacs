@@ -94,6 +94,7 @@
 (setq jedi:server-command '("~/.emacs.d/el-get/jedi/jediepcserver.py"))
 
 ;js repl
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
 (setq inferior-js-program-command "/usr/local/bin/node")
 (setq inferior-js-mode-hook
       (lambda ()

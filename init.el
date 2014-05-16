@@ -100,7 +100,8 @@
       (lambda ()
         ;; We like nice colors
         (ansi-color-for-comint-mode-on)
-        ;; Deal with some prompt nonsense
+        ;; Deal wi
+	th some prompt nonsense
         (add-to-list
          'comint-preoutput-filter-functions
          (lambda (output)

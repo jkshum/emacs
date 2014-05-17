@@ -1,0 +1,60 @@
+pwd 
+ls 
+ls -al 
+open .gitignore
+find-file .DS_Store 
+ls -al 
+find-file .gitignore
+ls -al 
+find-file .gitignore 
+find-file .gitignore 
+ls -al 
+rm .emacs.desktop 
+find-file .gitignore
+git init
+ls 
+ls -al 
+ls -al 
+git add . 
+git commit -m "first init"
+ls *.~
+find-file .gitignore
+ls -al 
+git add . 
+git commit -m "gitignore"
+ls 
+pwd 
+ls 
+ls -al 
+ssh root@119.9.72.114
+ls 
+curl -X GET  -H "access_token:Simulator" http://localhost:8080/album/5066549580791808/photos
+logout
+nosetests --nologcapture --with-gae -s -v
+nosetests --nologcapture --with-gae -s -v
+nosetests --nologcapture --with-gae -s -v
+test_model_to_json (Tests.unit_test.HandlerTestCases) ... DEBUG:root:album dic {'id': '3', 'hidden': None, 'created': '2014-05-07T01:33:48Z', 'albums': [2L], 'blob': '9zmH5tsuuYZFg9lCom2sQG4pRA734ZAFR3Ya4EAVJatE4SYdzEcHO1LBQWoCOLNO'}
+test_model_to_json (Tests.unit_test.HandlerTestCases) ... DEBUG:root:album dic {'id': '3', 'hidden': None, 'created': '2014-05-07T01:33:48Z', 'albums': [2L], 'blob': '9zmH5tsuuYZFg9lCom2sQG4pRA734ZAFR3Ya4EAVJatE4SYdzEcHO1LBQWoCOLNO'}
+nosetests --nologcapture --with-gae -s -v
+nosetests --nologcapture --with-gae -s -v
+nosetests --nologcapture --with-gae -s -v
+nosetests --nologcapture --with-gae -s -v
+curl -X GET  -H "access_token:Simulator" http://localhost:8080/album/5066549580791808/photos
+curl -X POST -d '{"name":"Timmy Ng"}' http://localhost:8080/registercurl -X POST -d '{"name":"Simulator"}' http://localhost:8080/registercurl -X POST -H "access_token:Timmy Ng" http://localhost:8080/invitecurl -X POST -H "access_token:Simulator" -d '{"invitation_token":"Timmy Ng"}' http://localhost:8080/accept
+curl -X POST -H "access_token:Timmy Ng" http://localhost:8080/invitecurl -X POST -H "access_token:Simulator" -d '{"invitation_token":"Timmy Ng"}' http://localhost:8080/accept
+curl -X POST -H "access_token:Simulator" -d '{"invitation_token":"Timmy Ng"}' http://localhost:8080/accept
+curl -i -L -H "access_token:Timmy Ng" -F "name=photo" -F "filename=photo" -F photo="@Tests/photo.png" http://localhost:8080/upload
+curl -i -L -H "access_token:Timmy Ng" -F "name=photo" -F "filename=photo" -F photo="@Tests/photo.png" http://localhost:8080/upload
+curl -i -L -H "access_token:Timmy Ng" -F "name=photo" -F "filename=photo" -F photo="@Tests/photo.png" http://localhost:8080/upload
+curl -i -L -H "access_token:Timmy Ng" -F "name=photo" -F "filename=photo" -F photo="@Tests/photo.png" http://localhost:8080/upload
+curl -X GET  -H "access_token:Simulator" http://localhost:8080/album/5066549580791808/photos
+curl -X GET  -H "access_token:Simulator" http://localhost:8080/album/5066549580791808/photos
+find .gitignore
+find-file .gitignore
+ls 
+ls -al 
+cd modules/
+ls 
+cd js 
+ls 
+ls -al 

@@ -12,20 +12,28 @@
 ;; ----- ido-work-directory-list -----
 (
  "/Users/jkshum/Dropbox/appengine/minialbum/"
+ "/Users/jkshum/.emacs.d/"
  "/Users/jkshum/Dropbox/appengine/minialbum/Tests/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "notes.org"
+ "handlers.py"
+ "init.el"
  "utils.py"
  "curl.org"
- "handlers.py"
  "rest_test.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/jkshum/Dropbox/appengine/minialbum/" (21351 35507 0 0) "utils.pyc" "utils.py" "Tests/" "settings.pyc" "settings.py" "pbkdf2.pyc" "pbkdf2.py" "models.py~" "models.pyc" "models.py" "main.pyc" "main.py" "handlers.py~" "handlers.pyc" "handlers.py" "error.pyc" "error.py" "doc.org~" "doc.org" "app.yaml" ".gitignore~" ".gitignore" ".git/" "#doc.org#" "#.gitignore#" "../" "./")
+ ("/Users/jkshum/Dropbox/appengine/minialbum/" (21366 53419 0 0) "utils.pyc" "utils.py" "Tests/" "settings.pyc" "settings.py" "pbkdf2.pyc" "pbkdf2.py" "notes.org" "models.py~" "models.pyc" "models.py" "main.pyc" "main.py" "index.yaml" "handlers.py~" "handlers.pyc" "handlers.py" "error.pyc" "error.py" "doc.org~" "doc.org" "app.yaml" ".gitignore~" ".gitignore" ".git/" "#notes.org#" "#doc.org#" "#.gitignore#" "../" "./")
+
+ ("/Users/jkshum/.emacs.d/" (21366 53352 0 0) "yasobjc.rb" "recentf" "init.el~" "init.el" "ido.last" "eshell/" "elpa/" "el-get/" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" ".#init.el" "#init.el#" "../" "./")
+
+ ("/Users/jkshum/Dropbox/" (21366 52959 0 0) "Useful/" "Secured/" "Public/" "Projects/" "ios/" "Icon
+" "google/" "Design/" "Course/" "code/" "clojure/" "Camera Uploads/" "Books/" "Blog/" "Backup/" "Articles/" "Apps/" "appengine/" ".emacs.desktop" ".DS_Store" ".dropbox.cache/" "../" "./")
 
  ("/Users/jkshum/Dropbox/appengine/minialbum/Tests/" (21350 15484 0 0) "unit_test.py~" "unit_test.pyc" "unit_test.py" "rest_test.py~" "rest_test.pyc" "rest_test.py" "photo.png" "minialbum_test.pyc" "functional_test.pyc" "func_test.pyc" "curl.org~" "curl.org" "__init__.pyc" "__init__.py" "#rest_test.py#" "../" "./")
 
@@ -36,9 +44,6 @@
  ("/Users/jkshum/Dropbox/Apps/Byword/" (21186 58824 0 0) "Untitled.txt" "../" "./")
 
  ("/Users/jkshum/Dropbox/Apps/" (21180 9494 0 0) "Byword/" "../" "./")
-
- ("/Users/jkshum/Dropbox/" (21341 9053 0 0) "Useful/" "Secured/" "Public/" "Projects/" "ios/" "Icon
-" "google/" "Design/" "Course/" "code/" "clojure/" "Camera Uploads/" "Books/" "Blog/" "Backup/" "Articles/" "Apps/" "appengine/" ".emacs.desktop" ".DS_Store" ".dropbox.cache/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

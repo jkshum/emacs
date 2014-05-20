@@ -46,6 +46,7 @@
 (global-set-key (kbd "C-?") help-map)
 (global-set-key (kbd "M-h") 'backward-kill-word)
 (global-set-key (kbd "C-M-n") 'down-list)
+(global-set-key (kbd "C-M-p") 'backward-up-list)
 (global-set-key (kbd "M-p") 'mc/mark-previous-like-this)
 (global-set-key (kbd "M-n") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-c M-r") 'set-rectangular-region-anchor)
@@ -183,3 +184,4 @@
     (goto-char 0)
     (insert "/* -*- mode: objc -*- */\n")
     (goto-char (+ p  (length "/* -*- mode: objc -*- */\n")))))
+

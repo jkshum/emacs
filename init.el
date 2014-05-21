@@ -5,6 +5,7 @@
                       ace-jump-mode
                       multiple-cursors
                       company
+		      js2-mode
                       jedi
 		      yasnippet
                       js-comint
@@ -51,8 +52,13 @@
 (global-set-key (kbd "C-c C->") 'set-rectangular-region-anchor)
 (global-set-key (kbd "C-0") 'ace-jump-mode)
 (global-set-key (kbd "C-x C-i") 'idomenu)
-(windmove-default-keybindings)
+
+(global-set-key (kbd "C-c <left>")  'windmove-left)
+(global-set-key (kbd "C-c <right>") 'windmove-right)
+(global-set-key (kbd "C-c <up>")    'windmove-up)
+(global-set-key (kbd "C-c <down>")  'windmove-down)
 (setq windmove-wrap-around t )
+
 
 (add-hook 'emacs-lisp-mode-hook       #'paredit-mode)
 (add-hook 'eval-expression-minibuffer-setup-hook #'paredit-mode)

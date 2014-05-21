@@ -2,28 +2,61 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Fri May 16 08:49:18 2014
+;; Created Wed May 21 09:36:51 2014
 ;; Desktop file format version 206
 ;; Emacs version 24.4.50.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (21365 24718 642422 0) (desktop . "206") "jackyshum@JackyMac.local" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (line-spacing) (left-fringe . 8) (right-fringe . 8) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen . fullboth) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "white") (environment) (display . "JackyMac.local") (frameset--id . "3C18-F667-A9AB-6A4D") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (explicit-name) (tool-bar-position . top) (visibility . t) (height . 67) (width . 237) (left . 0) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 64) (min-pixel-width . 160) (min-pixel-height-ignore . 32) (min-pixel-width-ignore . 64) (min-pixel-height-safe . 16) (min-pixel-width-safe . 32)) hc (pixel-width . 1916) (pixel-height . 1060) (total-width . 240) (total-height . 66) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 956) (pixel-height . 1060) (total-width . 120) (total-height . 66) (normal-height . 1.0) (normal-width . 0.5) (buffer "notes.org<minialbum>" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 46) (start . 1))) (leaf (last . t) (pixel-width . 960) (pixel-height . 1060) (total-width . 120) (total-height . 66) (normal-height . 1.0) (normal-width . 0.5) (buffer "*shell*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 300) (start . 1)))))])
+(setq desktop-saved-frameset [frameset 1 (21372 819 134643 0) (desktop . "206") "jackyshum@JackyMac.local" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (line-spacing) (left-fringe . 8) (right-fringe . 8) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen . fullboth) (display . "JackyMac.local") (display-type . color) (background-mode . dark) (cursor-color . "white") (visibility . t) (frameset--id . "08CA-27DB-03BE-4CF0") (frameset--mini t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (explicit-name) (tool-bar-position . top) (height . 63) (width . 157) (left . 1920) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 64) (min-pixel-width . 80) (min-pixel-height-ignore . 32) (min-pixel-width-ignore . 32) (min-pixel-height-safe . 16) (min-pixel-width-safe . 16)) leaf (pixel-width . 1276) (pixel-height . 1004) (total-width . 159) (total-height . 62) (normal-height . 1.0) (normal-width . 1.0) (buffer "perfStatsDataUpdater.js" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars 0 0 nil nil) (vscroll . 0) (dedicated) (point . 2592) (start . 1727))) (((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (line-spacing) (left-fringe . 8) (right-fringe . 8) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen . fullboth) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "white") (environment) (display . "JackyMac.local") (frameset--id . "3C18-F667-A9AB-6A4D") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (explicit-name) (tool-bar-position . top) (visibility . t) (height . 67) (width . 237) (left . 0) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 64) (min-pixel-width . 160) (min-pixel-height-ignore . 32) (min-pixel-width-ignore . 64) (min-pixel-height-safe . 16) (min-pixel-width-safe . 32)) hc (pixel-width . 1916) (pixel-height . 1060) (total-width . 240) (total-height . 66) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 956) (pixel-height . 1060) (total-width . 120) (total-height . 66) (normal-height . 1.0) (normal-width . 0.5) (buffer "cx_memberLoginService.js" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 3076) (start . 1627))) (leaf (last . t) (pixel-width . 960) (pixel-height . 1060) (total-width . 120) (total-height . 66) (normal-height . 1.0) (normal-width . 0.5) (buffer "*shell*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 499) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("onsele" "click" "btn" "gala" "sendfeedbackcallback" "reporterroralerthandler" "report" "errorinvitedaccepted" "logger" "App" "gai" "l" "setting" "sendfeedbackcallback" "callmiddlewareservice" "hbxfeedback"))
-(setq regexp-search-ring nil)
-(setq register-alist (list (desktop-list* 114 (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,6294 (get-buffer ,"handlers.py")))) mk))))
-(setq file-name-history '("/Users/jackyshum/Dropbox/appengine/minialbum/notes.org" "/Users/jackyshum/.emacs.d/init.el" "/Users/jackyshum/Dropbox/cx/service-matrix/modules/js/event.js" "/Users/jackyshum/Dropbox/cx/service-matrix/modules/js/errorReportController.js" "/Users/jackyshum/.emacs.d/init.el" "/Users/jackyshum/Dropbox/cx/service-matrix/modules/js/innoCore.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/searchJs.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/feedbackController.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/searchJs.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/appinit.js" "~/Dropbox/cx/cxstats/modules/js/" "~/Dropbox/cx/ijourneylite/modules/js/" "~/Dropbox/cx/cxstats/modules/js/" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/feedbackController.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/login.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/logger.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/feedbackController.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/logger.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/appinit.js" "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/feedbackController.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/feedbackController.js" "~/Dropbox/cx/ijourneylite/modules/js/" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/login.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/logger.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/appinit.js" "~/Dropbox/cx/cxstats/modules/js/" "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/loginController.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/login.js" "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/feedbackController.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/feedbackController.js" "~/Dropbox/cx/cxstats/modules/js/" "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/aes.js" "/Users/jackyshum/Dropbox/appengine/minialbum/handlers.py" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/logger.js" "~/Dropbox/cx/ijourneylite/modules/js/" "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/logger.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/feedbackController.js" "~/Dropbox/cx/ijourneylite/modules/js/" "/Users/jackyshum/Dropbox/appengine/minialbum/Tests/init.sh" "/Users/jackyshum/Dropbox/appengine/minialbum/handlers.py" "~/Dropbox/cx/ijourneylite/modules/js/" "~/Dropbox/cx/cxstats/modules/js/" "/Users/jackyshum/.emacs.d/init.el" "~/Dropbox/cx/cxstats/modules/js/" "~/Dropbox/cx/cxstats/modules/js/logger.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/innoCore.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/login.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/SearchFlightScreen.js" "~/Dropbox/cx/cxstats/modules/js/" "~/Dropbox/cx/ijourneylite/modules/js/appinit.js" "~/Dropbox/cx/cxstats/modules/js/" "/Users/jackyshum/Dropbox/appengine/minialbum/Tests/unit_test.py" "/Users/jackyshum/Dropbox/appengine/minialbum/Tests/functional_test.pyc" "/Users/jackyshum/Dropbox/appengine/minialbum/Tests/rest_test.py" "/Users/jackyshum/Dropbox/appengine/minialbum/handlers.py" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/innoCore.js" "~/Dropbox/cx/cxstats/modules/js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/feedbackController.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/innoCore.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/ApplicationUtil.js" "~/Dropbox/cx/cxstats/" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/innoCore.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/feedbackController.js" "/Users/jackyshum/.emacs.d/init.el" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/feedbackController.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/JSConstants.js" "/Users/jackyshum/.emacs.d/init.el" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/underscore-min.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/innoCore.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/event.js" "~/Dropbox/cx/ijourneylite/modules/js/" "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/innoCore.js" "~/Dropbox/cx/ijourneylite/modules/js/" "~/Dropbox/cx/cxstats/" "/Users/jackyshum/Dropbox/cx/cxstats/CXStats.keystore" "/Users/jackyshum/Dropbox/cx/notes.org" "/Users/jackyshum/Dropbox/appengine/minialbum/handlers.py" "/Users/jackyshum/Dropbox/appengine/queuepass_web/common/handler.py" "/Users/jackyshum/.shuttle.json" "/Users/jackyshum/Dropbox/appengine/minialbum/handlers.py" "/Users/jackyshum/Dropbox/appengine/minialbum/Tests/notes.org" "/Users/jackyshum/Dropbox/appengine/minialbum/handlers.py" "~/Dropbox/appengine/minialbum/Tests/notes.org" "~/Dropbox/appengine/minialbum/Tests/notes" "/Users/jackyshum/Dropbox/appengine/minialbum/Tests/curl.org" "/Users/jackyshum/Dropbox/appengine/minialbum/Tests/unit_test.py" "/Users/jackyshum/Dropbox/appengine/minialbum/settings.py" "/Users/jackyshum/Dropbox/appengine/minialbum/handlers.py" "/Users/jackyshum/Dropbox/appengine/minialbum/main.py" "/Users/jackyshum/Dropbox/appengine/minialbum/models.py" "/Users/jackyshum/Dropbox/appengine/minialbum/handlers.py" "/Users/jackyshum/Dropbox/appengine/queuepass_web/common/utils.py" "/Users/jackyshum/Dropbox/appengine/minialbum/handlers.py" "/Users/jackyshum/Dropbox/appengine/minialbum/Tests/curl.org" "/Users/jackyshum/Dropbox/appengine/minialbum/handlers.py" "/Users/jackyshum/Dropbox/appengine/minialbum/utils.py" "/Users/jackyshum/Dropbox/appengine/minialbum/handlers.py" "/Users/jackyshum/Dropbox/appengine/minialbum/main.py" "/Users/jackyshum/Dropbox/appengine/minialbum/handlers.py" "/Users/jackyshum/Dropbox/appengine/minialbum/main.py"))
+(setq search-ring '("handlermethod" "refreshaccesstoken" "refreshtoken" "autologincallback" "cprofilemanagement" "profile" "profilemanager" "DEBUG" "IS_Sess" "au" "authenticatecallback" "OAuth" "oauthtestuser3" "serv" "OAuth" "windmove"))
+(setq regexp-search-ring '("defer"))
+(setq register-alist (list (desktop-list* 114 (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,6316 (get-buffer ,"handlers.py")))) mk))))
+(setq file-name-history '("~/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/" "/Users/jackyshum/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/cx_baseService.js" "~/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/" "/Users/jackyshum/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/cx_memberLoginService.js" "~/Dropbox/cx/cxstats/modules/js/" "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/loginController.js" "/Users/jackyshum/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/innoCore.js" "/Users/jackyshum/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/cx_memberLoginService.js" "~/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/" "/Users/jackyshum/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/cx_global.js" "~/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/" "/Users/jackyshum/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/cx_profileManagement.js" "/Users/jackyshum/Dropbox/appengine/minialbum/handlers.py" "/Users/jackyshum/Dropbox/appengine/minialbum/utils.py" "/Users/jackyshum/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/cx_profileManagement.js" "/Users/jackyshum/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/cx_mmbMemberProfileService.js" "~/Dropbox/cx/datapower.cer" "/Users/jackyshum/Dropbox/appengine/minialbum/notes.org" "/Users/jackyshum/Dropbox/appengine/minialbum/handlers.py" "/Users/jackyshum/my.org" "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/loginController.js" "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/constants.js" "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/loginController.js" "/Users/jackyshum/Dropbox/cx/ICELoginPOC/modules/js/login.js" "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/loginController.js" "~/.emacs.d/init.el" "/Users/jackyshum/.emacs.d/init.el" "/Applications/Kony/Kony_Server/install/middleware/middleware-bootconfig/appregistry/ICELoginPOC.xml" "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/constants.js" "/Users/jackyshum/Dropbox/cx/service-matrix/modules/js/mockdata.js" "/Users/jackyshum/Dropbox/appengine/minialbum/notes.org" "/Users/jackyshum/.emacs.d/init.el" "/Users/jackyshum/Dropbox/cx/service-matrix/modules/js/event.js" "/Users/jackyshum/Dropbox/cx/service-matrix/modules/js/errorReportController.js" "/Users/jackyshum/.emacs.d/init.el" "/Users/jackyshum/Dropbox/cx/service-matrix/modules/js/innoCore.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/searchJs.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/feedbackController.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/searchJs.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/appinit.js" "~/Dropbox/cx/cxstats/modules/js/" "~/Dropbox/cx/ijourneylite/modules/js/" "~/Dropbox/cx/cxstats/modules/js/" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/feedbackController.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/login.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/logger.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/feedbackController.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/logger.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/appinit.js" "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/feedbackController.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/feedbackController.js" "~/Dropbox/cx/ijourneylite/modules/js/" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/login.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/logger.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/appinit.js" "~/Dropbox/cx/cxstats/modules/js/" "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/loginController.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/login.js" "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/feedbackController.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/feedbackController.js" "~/Dropbox/cx/cxstats/modules/js/" "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/aes.js" "/Users/jackyshum/Dropbox/appengine/minialbum/handlers.py" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/logger.js" "~/Dropbox/cx/ijourneylite/modules/js/" "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/logger.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/feedbackController.js" "~/Dropbox/cx/ijourneylite/modules/js/" "/Users/jackyshum/Dropbox/appengine/minialbum/Tests/init.sh" "/Users/jackyshum/Dropbox/appengine/minialbum/handlers.py" "~/Dropbox/cx/ijourneylite/modules/js/" "~/Dropbox/cx/cxstats/modules/js/" "/Users/jackyshum/.emacs.d/init.el" "~/Dropbox/cx/cxstats/modules/js/" "~/Dropbox/cx/cxstats/modules/js/logger.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/innoCore.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/login.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/SearchFlightScreen.js" "~/Dropbox/cx/cxstats/modules/js/" "~/Dropbox/cx/ijourneylite/modules/js/appinit.js" "~/Dropbox/cx/cxstats/modules/js/" "/Users/jackyshum/Dropbox/appengine/minialbum/Tests/unit_test.py" "/Users/jackyshum/Dropbox/appengine/minialbum/Tests/functional_test.pyc" "/Users/jackyshum/Dropbox/appengine/minialbum/Tests/rest_test.py" "/Users/jackyshum/Dropbox/appengine/minialbum/handlers.py" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/innoCore.js" "~/Dropbox/cx/cxstats/modules/js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/feedbackController.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/innoCore.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/ApplicationUtil.js" "~/Dropbox/cx/cxstats/" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/innoCore.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/feedbackController.js" "/Users/jackyshum/.emacs.d/init.el" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/feedbackController.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/JSConstants.js" "/Users/jackyshum/.emacs.d/init.el" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/underscore-min.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/innoCore.js" "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/event.js"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/cx_memberLoginService.js"
+  "cx_memberLoginService.js"
+  'js2-mode
+  '(auto-complete-mode yas-minor-mode)
+  3076
+  '(3076 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/cx_profileManagement.js"
+  "cx_profileManagement.js"
+  'js2-mode
+  '(auto-complete-mode yas-minor-mode)
+  11351
+  '(12747 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-dos)))
+
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/cx_mmbMemberProfileService.js"
+  "cx_mmbMemberProfileService.js"
+  'js2-mode
+  '(auto-complete-mode yas-minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-dos)))
+
 (desktop-create-buffer 206
   "/Users/jackyshum/Dropbox/appengine/minialbum/notes.org"
   "notes.org"
   'org-mode
   '(yas-minor-mode)
-  46
-  '(58 t)
+  887
+  '(240 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
@@ -40,15 +73,290 @@
   '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/appengine/minialbum/handlers.py"
+  "handlers.py"
+  'python-mode
+  '(auto-complete-mode yas-minor-mode)
+  8790
+  '(1145 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/cx_airlineInfoService.js"
+  "cx_airlineInfoService.js"
+  'js2-mode
+  '(auto-complete-mode yas-minor-mode)
+  821
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/cx_flightStatusSearchContext.js"
+  "cx_flightStatusSearchContext.js"
+  'js2-mode
+  '(auto-complete-mode yas-minor-mode)
+  3401
+  '(3232 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-dos)))
+
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/cx_baseService.js"
+  "cx_baseService.js"
+  'js2-mode
+  '(auto-complete-mode yas-minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/cx/ICELoginPOC/modules/js/login.js"
+  "login.js"
+  'js2-mode
+  '(auto-complete-mode yas-minor-mode)
+  1141
+  '(1141 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/perfStatsDataUpdater.js"
+  "perfStatsDataUpdater.js"
+  'js-mode
+  '(auto-complete-mode yas-minor-mode)
+  2592
+  '(256 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/cx_flightStatusSearchResultService.js"
+  "cx_flightStatusSearchResultService.js"
+  'js2-mode
+  '(auto-complete-mode yas-minor-mode)
+  950
+  '(975 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-dos)))
+
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/innoCore.js"
+  "innoCore.js"
+  'js2-mode
+  '(auto-complete-mode yas-minor-mode)
+  1343
+  '(1343 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/authHelper.js"
+  "authHelper.js"
+  'js-mode
+  '(auto-complete-mode yas-minor-mode)
+  445
+  '(427 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/loginController.js"
+  "loginController.js"
+  'js-mode
+  '(auto-complete-mode yas-minor-mode)
+  2614
+  '(2614 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/cx/notes.org"
+  "notes.org"
+  'org-mode
+  '(yas-minor-mode)
+  1171
+  '(975 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/cx_mmbBookingLoginController.js"
+  "cx_mmbBookingLoginController.js"
+  'js2-mode
+  '(auto-complete-mode yas-minor-mode)
+  24672
+  '(24658 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-dos)))
+
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/cx_global.js"
+  "cx_global.js"
+  'js2-mode
+  '(auto-complete-mode yas-minor-mode)
+  1867
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "js"
+  'dired-mode
+  '(yas-minor-mode)
+  312
+  '(nil nil)
+  t
+  '("/Users/jackyshum/Dropbox/cx/ICE-mobile/branches/IceMobile-Sprint1/IceMobile/modules/js/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/appengine/minialbum/utils.py"
+  "utils.py"
+  'python-mode
+  '(auto-complete-mode yas-minor-mode)
+  150
+  '(761 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/etc/hosts"
+  "hosts"
+  'conf-space-mode
+  '(yas-minor-mode)
+  386
+  '(386 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/aes.js"
+  "aes.js"
+  'js-mode
+  '(auto-complete-mode yas-minor-mode)
+  1698
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/utils.js"
+  "utils.js"
+  'js-mode
+  '(auto-complete-mode yas-minor-mode)
+  812
+  '(787 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/constants.js"
+  "constants.js"
+  'js2-mode
+  '(auto-complete-mode yas-minor-mode)
+  1194
+  '(1128 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Applications/Kony/Kony_Server/install/middleware/middleware-bootconfig/appregistry/ICELoginPOC.xml"
+  "ICELoginPOC.xml"
+  'nxml-mode
+  '(yas-minor-mode flycheck-mode)
+  4071
+  '(2709 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/cx/cxstats/services/servicedef.xml"
+  "servicedef.xml"
+  'nxml-mode
+  '(yas-minor-mode flycheck-mode)
+  945
+  '(708 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "services"
+  'dired-mode
+  '(yas-minor-mode)
+  859
+  '(nil nil)
+  t
+  '("/Users/jackyshum/Dropbox/cx/cxstats/services/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "cxstats"
+  'dired-mode
+  '(yas-minor-mode)
+  2939
+  '(959 nil)
+  t
+  '("/Users/jackyshum/Dropbox/cx/cxstats/")
+  nil)
+
+(desktop-create-buffer 206
   "/Users/jackyshum/.emacs.d/init.el"
   "init.el"
   'emacs-lisp-mode
   '(auto-complete-mode paredit-mode yas-minor-mode flycheck-mode)
-  3237
-  '(3230 nil)
+  320
+  '(1829 nil)
   nil
   nil
   '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/cx/service-matrix/modules/js/mockdata.js"
+  "mockdata.js"
+  'js2-mode
+  '(auto-complete-mode yas-minor-mode)
+  36
+  '(36 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/jackyshum/Dropbox/cx/service-matrix/modules/js/serviceMatrixDataLoader.js"
+  "serviceMatrixDataLoader.js"
+  'js2-mode
+  '(auto-complete-mode yas-minor-mode)
+  5380
+  '(5380 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
   "/Users/jackyshum/Dropbox/cx/service-matrix/modules/js/event.js"
@@ -79,17 +387,6 @@
   '(auto-complete-mode yas-minor-mode)
   2535
   '(8275 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/Users/jackyshum/Dropbox/cx/service-matrix/modules/js/serviceMatrixDataLoader.js"
-  "serviceMatrixDataLoader.js"
-  'js2-mode
-  '(auto-complete-mode yas-minor-mode)
-  5380
-  '(5380 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix)))
@@ -236,61 +533,6 @@
   nil
   nil
   '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/loginController.js"
-  "loginController.js"
-  'js-mode
-  '(auto-complete-mode yas-minor-mode)
-  1706
-  '(1166 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/perfStatsDataUpdater.js"
-  "perfStatsDataUpdater.js"
-  'js-mode
-  '(auto-complete-mode yas-minor-mode)
-  3847
-  '(3847 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/authHelper.js"
-  "authHelper.js"
-  'js-mode
-  '(auto-complete-mode yas-minor-mode)
-  560
-  '(445 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/aes.js"
-  "aes.js"
-  'js-mode
-  '(auto-complete-mode yas-minor-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/Users/jackyshum/Dropbox/appengine/minialbum/handlers.py"
-  "handlers.py"
-  'python-mode
-  '(auto-complete-mode yas-minor-mode)
-  1747
-  '(519 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
   nil
@@ -491,17 +733,6 @@
   '((buffer-file-coding-system . no-conversion)))
 
 (desktop-create-buffer 206
-  "/Users/jackyshum/Dropbox/cx/cxstats/modules/js/utils.js"
-  "utils.js"
-  'js-mode
-  '(auto-complete-mode yas-minor-mode)
-  812
-  '(787 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
   "/Users/jackyshum/Dropbox/cx/ijourneylite/modules/js/JSConstants.js"
   "JSConstants.js"
   'js-mode
@@ -544,28 +775,6 @@
   nil
   nil
   '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/Users/jackyshum/Dropbox/cx/notes.org"
-  "notes.org"
-  'org-mode
-  '(yas-minor-mode)
-  59
-  '(49 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  nil
-  "cxstats"
-  'dired-mode
-  '(yas-minor-mode)
-  2158
-  '(nil nil)
-  t
-  '("/Users/jackyshum/Dropbox/cx/cxstats/")
-  nil)
 
 (desktop-create-buffer 206
   "/Users/jackyshum/Dropbox/appengine/queuepass_web/common/handler.py"
@@ -618,17 +827,6 @@
   '(auto-complete-mode yas-minor-mode)
   1873
   '(nil nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/Users/jackyshum/Dropbox/appengine/minialbum/utils.py"
-  "utils.py"
-  'python-mode
-  '(auto-complete-mode yas-minor-mode)
-  150
-  '(761 nil)
   nil
   nil
   '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))

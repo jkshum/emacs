@@ -3,12 +3,22 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+<<<<<<< HEAD
+	isearch-exit
+	org-self-insert-command
+=======
 	backward-delete-char
 	kill-sexp
 	org-self-insert-command
 	paredit-forward-kill-word
+>>>>>>> FETCH_HEAD
 	))
 
 (setq mc/cmds-to-run-once
       '(
+<<<<<<< HEAD
+	ido-switch-buffer
+	isearch-forward-symbol-at-point
+=======
+>>>>>>> FETCH_HEAD
 	))

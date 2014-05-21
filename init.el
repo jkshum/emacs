@@ -47,17 +47,25 @@
 (global-set-key (kbd "C-?") help-map)
 (global-set-key (kbd "M-h") 'backward-kill-word)
 (global-set-key (kbd "C-M-n") 'down-list)
-(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
-(global-set-key (kbd "C->") 'mc/mark-next-like-this)
-(global-set-key (kbd "C-c C->") 'set-rectangular-region-anchor)
+(global-set-key (kbd "C-M-p") 'backward-up-list)
+(global-set-key (kbd "M-p") 'mc/mark-previous-like-this)
+(global-set-key (kbd "M-n") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-c M-r") 'set-rectangular-region-anchor)
 (global-set-key (kbd "C-0") 'ace-jump-mode)
 (global-set-key (kbd "C-x C-i") 'idomenu)
 
+<<<<<<< HEAD
+=======
+(setq windmove-wrap-around t)
+>>>>>>> FETCH_HEAD
 (global-set-key (kbd "C-c <left>")  'windmove-left)
 (global-set-key (kbd "C-c <right>") 'windmove-right)
 (global-set-key (kbd "C-c <up>")    'windmove-up)
 (global-set-key (kbd "C-c <down>")  'windmove-down)
+<<<<<<< HEAD
 (setq windmove-wrap-around t )
+=======
+>>>>>>> FETCH_HEAD
 
 
 (add-hook 'emacs-lisp-mode-hook       #'paredit-mode)
@@ -164,7 +172,6 @@
 
 (load (expand-file-name "~/quicklisp/slime-helper.el"))
 (setq inferior-lisp-program "/usr/local/bin/sbcl")
-
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -187,3 +194,4 @@
     (goto-char 0)
     (insert "/* -*- mode: objc -*- */\n")
     (goto-char (+ p  (length "/* -*- mode: objc -*- */\n")))))
+

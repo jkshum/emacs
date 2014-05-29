@@ -70,3 +70,4 @@ cd certs/
 ls 
 c
 ls ~/Dropbox/cx/certs/
+ssh imtjks@119.9.88.32

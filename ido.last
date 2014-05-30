@@ -11,31 +11,33 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/jkshum/Dropbox/appengine/minialbum/Tests/"
  "/Users/jkshum/Dropbox/appengine/minialbum/"
  "/Users/jkshum/.emacs.d/"
- "/Users/jkshum/Dropbox/appengine/minialbum/Tests/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "notes.org"
+ "rest_test.py"
  "handlers.py"
+ "main.py"
  "init.el"
+ "settings.py"
+ "notes.org"
  "utils.py"
  "curl.org"
- "rest_test.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/jkshum/Dropbox/appengine/minialbum/" (21366 53419 0 0) "utils.pyc" "utils.py" "Tests/" "settings.pyc" "settings.py" "pbkdf2.pyc" "pbkdf2.py" "notes.org" "models.py~" "models.pyc" "models.py" "main.pyc" "main.py" "index.yaml" "handlers.py~" "handlers.pyc" "handlers.py" "error.pyc" "error.py" "doc.org~" "doc.org" "app.yaml" ".gitignore~" ".gitignore" ".git/" "#notes.org#" "#doc.org#" "#.gitignore#" "../" "./")
+ ("/Users/jkshum/Dropbox/appengine/minialbum/" (21377 17929 0 0) "utils.pyc" "utils.py" "Tests/" "settings.pyc" "settings.py" "pbkdf2.pyc" "pbkdf2.py" "notes.org" "models.py~" "models.pyc" "models.py" "main.pyc" "main.py" "index.yaml" "handlers.py~" "handlers.pyc" "handlers.py" "error.pyc" "error.py" "doc.org~" "doc.org" "app.yaml" ".gitignore~" ".gitignore" ".git/" ".#notes.org" ".#main.py" "#settings.py#" "#notes.org#" "#main.py#" "#doc.org#" "#.gitignore#" "../" "./")
 
- ("/Users/jkshum/.emacs.d/" (21366 53352 0 0) "yasobjc.rb" "recentf" "init.el~" "init.el" "ido.last" "eshell/" "elpa/" "el-get/" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" ".#init.el" "#init.el#" "../" "./")
+ ("/Users/jkshum/Dropbox/" (21376 31635 0 0) "Useful/" "Secured/" "Public/" "Projects/" "ios/" "Icon
+" "Design/" "Course/" "clojure/" "Camera Uploads/" "Books/" "Blog/" "Backup/" "Articles/" "Apps/" "appengine/" ".emacs.desktop" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
 
- ("/Users/jkshum/Dropbox/" (21366 52959 0 0) "Useful/" "Secured/" "Public/" "Projects/" "ios/" "Icon
-" "google/" "Design/" "Course/" "code/" "clojure/" "Camera Uploads/" "Books/" "Blog/" "Backup/" "Articles/" "Apps/" "appengine/" ".emacs.desktop" ".DS_Store" ".dropbox.cache/" "../" "./")
+ ("/Users/jkshum/Dropbox/appengine/minialbum/Tests/" (21377 17553 0 0) "unit_test.py~" "unit_test.pyc" "unit_test.py" "rest_test.py~" "rest_test.pyc" "rest_test.py" "photo.png" "notes.org~" "minialbum_test.pyc" "init.sh~" "init.sh" "functional_test.pyc" "func_test.pyc" "curl.org~" "__init__.pyc" "__init__.py" ".#notes.org" "#init.sh#" "../" "./")
 
- ("/Users/jkshum/Dropbox/appengine/minialbum/Tests/" (21350 15484 0 0) "unit_test.py~" "unit_test.pyc" "unit_test.py" "rest_test.py~" "rest_test.pyc" "rest_test.py" "photo.png" "minialbum_test.pyc" "functional_test.pyc" "func_test.pyc" "curl.org~" "curl.org" "__init__.pyc" "__init__.py" "#rest_test.py#" "../" "./")
+ ("/Users/jkshum/.emacs.d/" (21371 22264 0 0) "yasobjc.rb" "recentf~" "recentf" "init.el~" "init.el" "ido.last~" "ido.last" "eshell/" "elpa/" "el-get/" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" "../" "./")
 
  ("/Users/jkshum/" (21345 4898 0 0) "xctool/" "webapps/" "Sites/" "quicklisp/" "Public/" "Pictures/" "Music/" "Movies/" "macports/" "Library/" "iPhone/" "Google Drive/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Design/" "Cert/" "Backup/" "Applications/" ".Xcode/" ".Xauthority" ".viminfo" ".Trash/" ".TemporaryItems/" ".subversion/" ".ssh/" ".slime-history.eld" ".slime/" ".sh_history" ".serverauth.291" ".sbclrc" ".qt/" ".python-eggs/" ".putty/" ".profile.pysave" ".profile.macports-saved_2011-11-09_at_23:47:58" ".profile" ".pip/" ".parallels_settings" ".parallels/" ".org.eclipse.epp.usagedata.recording.userId" ".nx/" ".mysql_history" ".m2/" ".lein/" ".itmstransporter/" ".gitconfig" ".gdb_history" ".fontconfig/" ".filezilla/" ".emacs.d/" ".dvdcss/" ".DS_Store" ".dropbox-master/" ".dropbox/" ".distlib/" ".cvspass" ".config/" ".cocoapods/" ".CFUserTextEncoding" ".cache/" ".bzr.log" ".bash_profile" ".bash_history" ".appcfg_nag" ".appcfg_cookies" ".adobe/" "../" "./")
 

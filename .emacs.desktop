@@ -2,11 +2,16 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
+<<<<<<< HEAD
 ;; Created Fri May 30 21:41:14 2014
+=======
+;; Created Fri May 30 21:32:50 2014
+>>>>>>> FETCH_HEAD
 ;; Desktop file format version 206
 ;; Emacs version 24.4.50.1
 
 ;; Global section:
+<<<<<<< HEAD
 (setq desktop-saved-frameset [frameset 1 (21384 35450 194040 0) (desktop . "206") "jkshum@Shums-MacBook-Air.local" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-apple-Menlo-medium-normal-normal-*-16-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (line-spacing) (left-fringe . 15) (right-fringe . 15) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen . fullboth) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "white") (environment) (frameset--id . "B42B-5711-1D41-2189") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (display . "Shums-MacBook-Air.local") (explicit-name) (tool-bar-position . top) (visibility . t) (height . 47) (width . 140) (left . 0) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 5) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 76) (min-pixel-width . 100) (min-pixel-height-ignore . 38) (min-pixel-width-ignore . 50) (min-pixel-height-safe . 19) (min-pixel-width-safe . 20)) leaf (pixel-width . 1436) (pixel-height . 877) (total-width . 143) (total-height . 46) (normal-height . 1.0) (normal-width . 1.0) (buffer "*shell*" (selected . t) (hscroll . 0) (fringes 15 15 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 2968) (start . 1766))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
@@ -18,16 +23,46 @@
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
+=======
+(setq desktop-saved-frameset [frameset 1 (21384 34946 517187 0) (desktop . "206") "jkshum@jacky-shums-imac.local" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Monaco-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (line-spacing) (left-fringe . 12) (right-fringe . 12) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen . fullboth) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "white") (environment) (frameset--id . "8AB0-4B53-F99E-924E") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (display . "jacky-shums-imac.local") (explicit-name) (tool-bar-position . top) (visibility . t) (height . 62) (width . 236) (left . 0) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 10) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 76) (min-pixel-width . 160) (min-pixel-height-ignore . 38) (min-pixel-width-ignore . 80) (min-pixel-height-safe . 19) (min-pixel-width-safe . 32)) hc (pixel-width . 1916) (pixel-height . 1177) (total-width . 240) (total-height . 61) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 956) (pixel-height . 1177) (total-width . 120) (total-height . 61) (normal-height . 1.0) (normal-width . 0.5) (buffer ".gitignore" (selected . t) (hscroll . 0) (fringes 12 12 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 204) (start . 1))) (leaf (last . t) (pixel-width . 960) (pixel-height . 1177) (total-width . 120) (total-height . 61) (normal-height . 1.0) (normal-width . 0.5) (buffer "*Help*" (selected) (hscroll . 0) (fringes 12 12 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("command" "font"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/Users/jkshum/.emacs.d/.gitignore" "~/.emacs.d/init.el" "/Users/jkshum/.emacs.d/init.el"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/jkshum/.emacs.d/.gitignore"
+  ".gitignore"
+  'fundamental-mode
+  '(yas-minor-mode)
+  204
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+>>>>>>> FETCH_HEAD
   "/Users/jkshum/.emacs.d/init.el"
   "init.el"
   'emacs-lisp-mode
   '(auto-complete-mode paredit-mode yas-minor-mode flycheck-mode)
+<<<<<<< HEAD
   1
   '(2806 nil)
+=======
+  2671
+  '(3634 nil)
+>>>>>>> FETCH_HEAD
   nil
   nil
   '((buffer-file-coding-system . prefer-utf-8-unix)))
 
+<<<<<<< HEAD
 (desktop-create-buffer 206
   "/Users/jkshum/Dropbox/appengine/minialbum/handlers.py"
   "handlers.py"
@@ -105,3 +140,5 @@
   nil
   '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
 
+=======
+>>>>>>> FETCH_HEAD

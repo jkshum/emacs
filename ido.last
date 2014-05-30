@@ -2,18 +2,19 @@
 
 ;; ----- ido-last-directory-list -----
 (
+<<<<<<< HEAD
  ("/ssh:imtjks@119.9.88.32:/home/imtjks/" . "mongo_backup/")
  ("/Users/jkshum/Dropbox/cx/" . "node/")
  ("/Users/jkshum/Dropbox/appengine/minialbum/" . "Tests/")
+=======
+>>>>>>> FETCH_HEAD
  ("/Users/jkshum/" . ".emacs.d/")
- ("/Users/jkshum/Dropbox/appengine/" . "minialbum/")
- ("/Users/jkshum/Dropbox/Apps/" . "Byword/")
- ("/Users/jkshum/Dropbox/" . "cx/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
  "/Users/jkshum/.emacs.d/"
+<<<<<<< HEAD
  "/Users/jkshum/Dropbox/appengine/minialbum/"
  "/ssh:imtjks@119.9.88.32:/home/imtjks/mongo_backup/"
  "/ssh:imtjks@119.9.88.32:/var/log/"
@@ -21,11 +22,14 @@
  "/ssh:imtjks@119.9.88.32:"
  "/Users/jkshum/Dropbox/cx/"
  "/Users/jkshum/Dropbox/appengine/minialbum/Tests/"
+=======
+>>>>>>> FETCH_HEAD
 )
 
 ;; ----- ido-work-file-list -----
 (
  "init.el"
+<<<<<<< HEAD
  "handlers.py"
  "backup"
  "notes.org"
@@ -35,10 +39,13 @@
  "settings.py"
  "utils.py"
  "curl.org"
+=======
+>>>>>>> FETCH_HEAD
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+<<<<<<< HEAD
  ("/Users/jkshum/.emacs.d/" (21384 31404 0 0) "yasobjc.rb" "tramp" "recentf~" "recentf" "init.el~" "init.el" "ido.last~" "ido.last" "eshell/" "elpa/" "el-get/" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" ".DS_Store" "../" "./")
 
  ("/Users/jkshum/" (21381 53450 0 0) "wwdc/" "webapps/" "tutorial~" "tutorial" "themes/" "SoapUI-Tutorials/" "site-lisp/" "quicklisp/" "Public/" "Pictures/" "Music/" "Movies/" "line-log/" "Library/" "KonySampleApps/" "iPhone/" "InstallAnywhere/" "init.el~" "init.el" "IdeaProjects/" "hello-world/" "Google Drive/" "git/" "Fiddler2/" "elpa/" "el-get/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "cx/" "Course/" "code/" "clojure-1.5.1/" "Camera Uploads/" "Books/" "Blog/" "bin/" "Backup/" "auto-save-list/" "Articles/" "Apps/" "Applications (Parallels)/" "Applications/" "appengine-java-sdk/" "appengine/" "android-sdk/" "ac-comphist.dat" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".TemporaryItems/" ".subversion/" ".ssh/" ".smex-items" ".slime-history.eld" ".slime/" ".sh_history" ".serverauth.8734" ".sbclrc" ".rnd" ".recentf~" ".recentf" ".putty/" ".psql_history" ".profile" ".pgpass" ".pgadmin_histoqueries" ".npm/" ".netrc" ".mono/" ".mongorc.js" ".MacOSX/" ".m2/" ".lispworks-config/" ".lighttable/" ".lein/" ".kony/" ".keditor/" ".jline-reply.history" ".itmstransporter/" ".InstallAnywhere/" ".ido.last~" ".ido.last" ".heroku/" ".gitconfig" ".ghc/" ".gem/" ".gdb_history" ".fontconfig/" ".filezilla/" ".emacs~" ".emacs.swp" ".emacs.desktop.lock" ".emacs.desktop" ".emacs.d/" ".DS_Store" ".dropbox.cache/" ".dropbox-master/" ".dropbox/" ".DownloadManager/" ".distlib/" ".dbshell" ".cpan/" ".config/" ".cocoapods/" ".CFUserTextEncoding" ".cache/" ".bash_profile" ".bash_history" ".aws" ".atom/" ".appcfg_nag" ".appcfg_cookies" ".apdisk" ".#mynotes.org" "#mynotes.org#" "../" "./")
@@ -61,6 +68,14 @@
  ("/Users/jkshum/Dropbox/Apps/Byword/" (21186 58824 0 0) "Untitled.txt" "../" "./")
 
  ("/Users/jkshum/Dropbox/Apps/" (21180 9494 0 0) "Byword/" "../" "./")
+=======
+ ("/Users/jkshum/.emacs.d/" (21384 33199 0 0) "recentf" "init.el" "eshell/" "elpa/" "el-get/" "bookmarks" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" ".DS_Store" "../" "./")
+
+ ("/Users/jkshum/" (21383 12185 0 0) "xctool/" "webapps/" "temp/" "Sites/" "quicklisp/" "Public/" "Pictures/" "Music/" "Movies/" "macports/" "Library/" "iPhone/" "Google Drive/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Design/" "Cert/" "Backup/" "Applications/" ".Xcode/" ".Xauthority" ".viminfo" ".Trash/" ".TemporaryItems/" ".subversion/" ".ssh/" ".slime-history.eld" ".slime/" ".sh_history" ".serverauth.291" ".sbclrc" ".qt/" ".python-eggs/" ".putty/" ".profile.pysave" ".profile.macports-saved_2011-11-09_at_23:47:58" ".profile" ".pip/" ".parallels_settings" ".parallels/" ".org.eclipse.epp.usagedata.recording.userId" ".nx/" ".mysql_history" ".m2/" ".lein/" ".itmstransporter/" ".gitconfig" ".gdb_history" ".fontconfig/" ".filezilla/" ".emacs.d/" ".dvdcss/" ".DS_Store" ".dropbox-master/" ".dropbox/" ".distlib/" ".cvspass" ".config/" ".cocoapods/" ".CFUserTextEncoding" ".cache/" ".bzr.log" ".bash_profile" ".bash_history" ".appcfg_nag" ".appcfg_cookies" ".adobe/" "../" "./")
+
+ ("/Users/jkshum/Dropbox/" (21383 12065 0 0) "Useful/" "Secured/" "Public/" "Project/" "ios/" "Icon
+" "Design/" "Course/" "clojure/" "Camera Uploads/" "Books/" "Blog/" "Backup/" "Articles/" "Apps/" "appengine/" ".emacs.desktop" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
+>>>>>>> FETCH_HEAD
 )
 
 ;; ----- ido-unc-hosts-cache -----

@@ -2,43 +2,65 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/ssh:imtjks@119.9.88.32:/home/imtjks/" . "mongo_backup/")
+ ("/Users/jkshum/Dropbox/cx/" . "node/")
  ("/Users/jkshum/Dropbox/appengine/minialbum/" . "Tests/")
- ("/Users/jkshum/" . "Dropbox/")
+ ("/Users/jkshum/" . ".emacs.d/")
  ("/Users/jkshum/Dropbox/appengine/" . "minialbum/")
  ("/Users/jkshum/Dropbox/Apps/" . "Byword/")
- ("/Users/jkshum/Dropbox/" . "appengine/")
+ ("/Users/jkshum/Dropbox/" . "cx/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/jkshum/.emacs.d/"
  "/Users/jkshum/Dropbox/appengine/minialbum/"
+ "/ssh:imtjks@119.9.88.32:/home/imtjks/mongo_backup/"
+ "/ssh:imtjks@119.9.88.32:/var/log/"
+ "/ssh:imtjks@119.9.88.32:/home/imtjks/"
+ "/ssh:imtjks@119.9.88.32:"
+ "/Users/jkshum/Dropbox/cx/"
  "/Users/jkshum/Dropbox/appengine/minialbum/Tests/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "init.el"
+ "handlers.py"
+ "backup"
+ "notes.org"
+ "init.sh"
+ "rest_test.py"
+ "main.py"
+ "settings.py"
  "utils.py"
  "curl.org"
- "handlers.py"
- "rest_test.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/jkshum/Dropbox/appengine/minialbum/" (21351 35507 0 0) "utils.pyc" "utils.py" "Tests/" "settings.pyc" "settings.py" "pbkdf2.pyc" "pbkdf2.py" "models.py~" "models.pyc" "models.py" "main.pyc" "main.py" "handlers.py~" "handlers.pyc" "handlers.py" "error.pyc" "error.py" "doc.org~" "doc.org" "app.yaml" ".gitignore~" ".gitignore" ".git/" "#doc.org#" "#.gitignore#" "../" "./")
+ ("/Users/jkshum/.emacs.d/" (21384 31235 0 0) "yasobjc.rb" "tramp" "recentf~" "recentf" "init.el~" "init.el" "ido.last~" "ido.last" "eshell/" "elpa/" "el-get/" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" ".DS_Store" ".#init.el" "#init.el#" "../" "./")
 
- ("/Users/jkshum/Dropbox/appengine/minialbum/Tests/" (21350 15484 0 0) "unit_test.py~" "unit_test.pyc" "unit_test.py" "rest_test.py~" "rest_test.pyc" "rest_test.py" "photo.png" "minialbum_test.pyc" "functional_test.pyc" "func_test.pyc" "curl.org~" "curl.org" "__init__.pyc" "__init__.py" "#rest_test.py#" "../" "./")
+ ("/Users/jkshum/" (21381 53450 0 0) "wwdc/" "webapps/" "tutorial~" "tutorial" "themes/" "SoapUI-Tutorials/" "site-lisp/" "quicklisp/" "Public/" "Pictures/" "Music/" "Movies/" "line-log/" "Library/" "KonySampleApps/" "iPhone/" "InstallAnywhere/" "init.el~" "init.el" "IdeaProjects/" "hello-world/" "Google Drive/" "git/" "Fiddler2/" "elpa/" "el-get/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "cx/" "Course/" "code/" "clojure-1.5.1/" "Camera Uploads/" "Books/" "Blog/" "bin/" "Backup/" "auto-save-list/" "Articles/" "Apps/" "Applications (Parallels)/" "Applications/" "appengine-java-sdk/" "appengine/" "android-sdk/" "ac-comphist.dat" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".TemporaryItems/" ".subversion/" ".ssh/" ".smex-items" ".slime-history.eld" ".slime/" ".sh_history" ".serverauth.8734" ".sbclrc" ".rnd" ".recentf~" ".recentf" ".putty/" ".psql_history" ".profile" ".pgpass" ".pgadmin_histoqueries" ".npm/" ".netrc" ".mono/" ".mongorc.js" ".MacOSX/" ".m2/" ".lispworks-config/" ".lighttable/" ".lein/" ".kony/" ".keditor/" ".jline-reply.history" ".itmstransporter/" ".InstallAnywhere/" ".ido.last~" ".ido.last" ".heroku/" ".gitconfig" ".ghc/" ".gem/" ".gdb_history" ".fontconfig/" ".filezilla/" ".emacs~" ".emacs.swp" ".emacs.desktop.lock" ".emacs.desktop" ".emacs.d/" ".DS_Store" ".dropbox.cache/" ".dropbox-master/" ".dropbox/" ".DownloadManager/" ".distlib/" ".dbshell" ".cpan/" ".config/" ".cocoapods/" ".CFUserTextEncoding" ".cache/" ".bash_profile" ".bash_history" ".aws" ".atom/" ".appcfg_nag" ".appcfg_cookies" ".apdisk" ".#mynotes.org" "#mynotes.org#" "../" "./")
 
- ("/Users/jkshum/" (21345 4898 0 0) "xctool/" "webapps/" "Sites/" "quicklisp/" "Public/" "Pictures/" "Music/" "Movies/" "macports/" "Library/" "iPhone/" "Google Drive/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Design/" "Cert/" "Backup/" "Applications/" ".Xcode/" ".Xauthority" ".viminfo" ".Trash/" ".TemporaryItems/" ".subversion/" ".ssh/" ".slime-history.eld" ".slime/" ".sh_history" ".serverauth.291" ".sbclrc" ".qt/" ".python-eggs/" ".putty/" ".profile.pysave" ".profile.macports-saved_2011-11-09_at_23:47:58" ".profile" ".pip/" ".parallels_settings" ".parallels/" ".org.eclipse.epp.usagedata.recording.userId" ".nx/" ".mysql_history" ".m2/" ".lein/" ".itmstransporter/" ".gitconfig" ".gdb_history" ".fontconfig/" ".filezilla/" ".emacs.d/" ".dvdcss/" ".DS_Store" ".dropbox-master/" ".dropbox/" ".distlib/" ".cvspass" ".config/" ".cocoapods/" ".CFUserTextEncoding" ".cache/" ".bzr.log" ".bash_profile" ".bash_history" ".appcfg_nag" ".appcfg_cookies" ".adobe/" "../" "./")
+ ("/Users/jkshum/Dropbox/" (21381 61370 0 0) "Useful/" "Secured/" "Public/" "Project/" "ios/" "Icon
+" "Design/" "cx/" "Course/" "clojure/" "Camera Uploads/" "Books/" "Blog/" "Backup/" "Articles/" "Apps/" "appengine/" ".emacs.desktop" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
 
- ("/Users/jkshum/Dropbox/appengine/" (21317 31908 0 0) "queuepass_web/" "minialbum/" "../" "./")
+ ("/Users/jkshum/Dropbox/appengine/minialbum/" (21381 60973 0 0) "utils.pyc" "utils.py" "Tests/" "settings.pyc" "settings.py" "pbkdf2.pyc" "pbkdf2.py" "notes.org" "models.py~" "models.pyc" "models.py" "main.pyc" "main.py" "index.yaml" "handlers.py~" "handlers.pyc" "handlers.py" "error.pyc" "error.py" "doc.org~" "doc.org" "app.yaml" ".gitignore~" ".gitignore" ".git/" ".DS_Store" "#settings.py#" "#notes.org#" "#main.py#" "#doc.org#" "#.gitignore#" "../" "./")
+
+ ("/Users/" (21224 65043 0 0) "timmyng425/" "Shared/" "jkshum/" "Guest/" ".localized" "../" "./")
+
+ ("/Users/jkshum/Dropbox/cx/node/" (21068 8531 0 0) "../" "./")
+
+ ("/Users/jkshum/Dropbox/cx/" (21380 35347 0 0) "ServiceMatrix.keystore" "service-matrix-admin/" "service-matrix/" "poc/" "notes.org~" "notes.org" "node/" "navigation/" "LoungeCheckin/" "linux.org~" "linux.org" "kony/" "java/" "IOSFFI/" "ios/" "InnoUtils/" "InnoLib/" "ijourneylite-service/" "ijourneylite/" "ide.lic" "ICEOpenJawPOC/" "ICELoginPOC/" "ICE-mobile/" "ICE/" "ibeaconnavigation/" "FFI/" "epil-mobile/" "cxstats/" "certs/" "BestBuy/" "backup/" "Archive/" "apps backup/" "airports.dat" ".home/" ".DS_Store" ".#notes.org" "#notes.org#" "#linux.org#" "../" "./")
+
+ ("/Users/jkshum/Dropbox/appengine/minialbum/Tests/" (21377 14572 0 0) "unit_test.py~" "unit_test.pyc" "unit_test.py" "rest_test.py~" "rest_test.pyc" "rest_test.py" "photo.png" "notes.org~" "minialbum_test.pyc" "init.sh~" "init.sh" "functional_test.pyc" "func_test.pyc" "curl.org~" "__init__.pyc" "__init__.py" ".DS_Store" ".#init.sh" "#init.sh#" "../" "./")
+
+ ("/Users/jkshum/Dropbox/appengine/" (21367 22020 0 0) "queuepass_web/" "minialbum/" ".DS_Store" "../" "./")
 
  ("/Users/jkshum/Dropbox/Apps/Byword/" (21186 58824 0 0) "Untitled.txt" "../" "./")
 
  ("/Users/jkshum/Dropbox/Apps/" (21180 9494 0 0) "Byword/" "../" "./")
-
- ("/Users/jkshum/Dropbox/" (21341 9053 0 0) "Useful/" "Secured/" "Public/" "Projects/" "ios/" "Icon
-" "google/" "Design/" "Course/" "code/" "clojure/" "Camera Uploads/" "Books/" "Blog/" "Backup/" "Articles/" "Apps/" "appengine/" ".emacs.desktop" ".DS_Store" ".dropbox.cache/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

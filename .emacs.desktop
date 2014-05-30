@@ -2,11 +2,16 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
+<<<<<<< HEAD
 ;; Created Wed May 28 21:19:46 2014
+=======
+;; Created Thu May 29 14:34:17 2014
+>>>>>>> FETCH_HEAD
 ;; Desktop file format version 206
 ;; Emacs version 24.4.50.1
 
 ;; Global section:
+<<<<<<< HEAD
 (setq desktop-saved-frameset [frameset 1 (21381 57970 894042 0) (desktop . "206") "jkshum@jacky-shums-imac.local" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Monaco-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (line-spacing) (left-fringe . 8) (right-fringe . 8) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen . fullboth) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "white") (environment) (frameset--id . "737F-A5F8-9035-F3CA") (frameset--mini t . t) (height . 62) (width . 237) (modeline . t) (minibuffer . t) (unsplittable) (left . 0) (top . 0) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (visibility . t) (display . "jacky-shums-imac.local") (explicit-name) (tool-bar-position . top)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 76) (min-pixel-width . 160) (min-pixel-height-ignore . 38) (min-pixel-width-ignore . 64) (min-pixel-height-safe . 19) (min-pixel-width-safe . 32)) hc (pixel-width . 1912) (pixel-height . 1140) (total-width . 239) (total-height . 60) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 956) (pixel-height . 1140) (total-width . 119) (total-height . 60) (normal-height . 1.0) (normal-width . 0.5) (buffer "rest_test.py" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 9534) (start . 8232))) (leaf (last . t) (pixel-width . 956) (pixel-height . 1140) (total-width . 120) (total-height . 60) (normal-height . 1.0) (normal-width . 0.5) (buffer "*Ido Completions*" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 335) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
@@ -68,10 +73,30 @@
   '(auto-complete-mode paredit-mode yas-minor-mode flycheck-mode)
   2097
   '(1551 nil)
+=======
+(setq desktop-saved-frameset [frameset 1 (21382 54505 530083 0) (desktop . "206") "jackyshum@JackyMac.local" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (line-spacing) (left-fringe . 8) (right-fringe . 8) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "white") (environment) (frameset--id . "10C5-6EEB-88F3-54CB") (frameset--mini t . t) (height . 35) (width . 80) (modeline . t) (minibuffer . t) (unsplittable) (left . 0) (top . 22) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (visibility . t) (display . "JackyMac.local") (explicit-name) (tool-bar-position . top)) ((min-height . 8) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 4) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 128) (min-pixel-width . 80) (min-pixel-height-ignore . 64) (min-pixel-width-ignore . 32) (min-pixel-height-safe . 32) (min-pixel-width-safe . 16)) vc (pixel-width . 656) (pixel-height . 544) (total-width . 82) (total-height . 34) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 656) (pixel-height . 272) (total-width . 82) (total-height . 17) (normal-height . 0.5) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 4455) (start . 4455))) (leaf (last . t) (pixel-width . 656) (pixel-height . 272) (total-width . 82) (total-height . 17) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Warnings*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 337) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("ac-mo"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/.emacs.d/" "/Users/jackyshum/.emacs.d/init.el" "~/.emacs.d/init.el" "~/.emacs.d/elpa/archives/gnu/archive-contents" "~/.emacs.d/elpa/archives/elpa/archive-contents" "~/.emacs.d/el-get/.loaddefs.el" "~/.emacs.d/elpa/wgrep-readme.txt" "~/Google Drive/cx/notes.org" "~/Dropbox/cx/notes.org" "~/Google Drive/cx/service-matrix/modules/js/OTAUpdate.js" "/ssh:imtjks@119.9.88.32:/home/imtjks/mongo_backup/backup" "~/2014-05-20-02-30.tar.gz"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/jackyshum/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(paredit-mode yas-minor-mode)
+  4455
+  '(4455 nil)
+>>>>>>> FETCH_HEAD
   nil
   nil
   '((buffer-file-coding-system . prefer-utf-8-unix)))
 
+<<<<<<< HEAD
 (desktop-create-buffer 206
   "/Users/jkshum/Dropbox/appengine/minialbum/settings.py"
   "settings.py"
@@ -83,3 +108,5 @@
   nil
   '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
 
+=======
+>>>>>>> FETCH_HEAD

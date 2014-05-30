@@ -58,3 +58,16 @@ ls
 cd js 
 ls 
 ls -al 
+find-file /etc/hosts
+netstat -nr
+sudo route -n add -net 57.28.0.0/16 192.168.0.1
+sudo route -n add -net 172.20.0.0/16  192.168.0.1
+Password:user5678
+pwd 
+/Applications/Kony/Kony_Server/tomcat-6.0.29/instance1/bin/startup.sh
+ls 
+cd certs/
+ls 
+c
+ls ~/Dropbox/cx/certs/
+ssh imtjks@119.9.88.32

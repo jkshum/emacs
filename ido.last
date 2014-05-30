@@ -2,6 +2,16 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/jackyshum/Google Drive/cx/service-matrix/modules/" . "js/")
+ ("/Users/jackyshum/Google Drive/cx/service-matrix/" . "modules/")
+ ("/Users/jackyshum/Google Drive/cx/" . "service-matrix/")
+ ("/ssh:imtjks@119.9.88.32:/var/log/" . "httpd/")
+ ("/Users/jackyshum/Google Drive/" . "cx/")
+ ("/Users/jackyshum/" . ".emacs.d/")
+ ("/Users/jackyshum/Dropbox/cx/ICELoginPOC/modules/" . "js/")
+ ("/Users/jackyshum/Dropbox/cx/ICELoginPOC/" . "modules/")
+ ("/Users/jackyshum/Dropbox/cx/" . "ICELoginPOC/")
+ ("/Users/jackyshum/Dropbox/" . "cx/")
  ("/Users/jkshum/Dropbox/appengine/minialbum/" . "Tests/")
  ("/Users/jkshum/" . "Dropbox/")
  ("/Users/jkshum/Dropbox/appengine/" . "minialbum/")
@@ -11,26 +21,86 @@
 
 ;; ----- ido-work-directory-list -----
 (
+<<<<<<< HEAD
  "/Users/jkshum/Dropbox/appengine/minialbum/Tests/"
+=======
+ "/Users/jackyshum/.emacs.d/"
+ "/Users/jackyshum/Google Drive/cx/service-matrix/modules/js/"
+ "/ssh:imtjks@119.9.88.32:/var/log/httpd/"
+ "/Users/jackyshum/Google Drive/cx/"
+ "/ssh:imtjks@119.9.88.32:/home/imtjks/"
+ "/ssh:imtjks@119.9.88.32:"
+ "/ssh:119.9.88.32:"
+ "/Users/jackyshum/"
+ "/Users/jackyshum/Dropbox/cx/ICELoginPOC/modules/js/"
+ "/Users/jackyshum/Dropbox/cx/"
+>>>>>>> FETCH_HEAD
  "/Users/jkshum/Dropbox/appengine/minialbum/"
  "/Users/jkshum/.emacs.d/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+<<<<<<< HEAD
  "rest_test.py"
  "handlers.py"
  "main.py"
  "init.el"
  "settings.py"
  "notes.org"
+=======
+ "init.el"
+ "OTAUpdate.js"
+ "ssl_access_log"
+ "notes.org"
+ "2014-05-20-02-30.tar.gz"
+ "login.js"
+ "handlers.py"
+>>>>>>> FETCH_HEAD
  "utils.py"
  "curl.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+<<<<<<< HEAD
  ("/Users/jkshum/Dropbox/appengine/minialbum/" (21377 17929 0 0) "utils.pyc" "utils.py" "Tests/" "settings.pyc" "settings.py" "pbkdf2.pyc" "pbkdf2.py" "notes.org" "models.py~" "models.pyc" "models.py" "main.pyc" "main.py" "index.yaml" "handlers.py~" "handlers.pyc" "handlers.py" "error.pyc" "error.py" "doc.org~" "doc.org" "app.yaml" ".gitignore~" ".gitignore" ".git/" ".#notes.org" ".#main.py" "#settings.py#" "#notes.org#" "#main.py#" "#doc.org#" "#.gitignore#" "../" "./")
+=======
+ ("/Users/jackyshum/.emacs.d/" (21382 54447 0 0) "yasobjc.rb" "tramp" "recentf~" "recentf" "init.el~" "init.el" "ido.last~" "ido.last" "flycheck_init.el" "eshell/" "elpa/" "el-get/" "bookmarks" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" ".emacs.desktop" "../" "./")
+
+ ("/Users/jackyshum/Dropbox/" (21382 43027 0 0) "Useful/" "Secured/" "Project/" "ios/" "Icon
+" "Design/" "cx/" "Course/" "clojure/" "Books/" "Blog/" "Backup/" "Articles/" "appengine/" ".emacs.desktop" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
+
+ ("/Users/jackyshum/" (21382 45066 0 0) "XVim/" "virus/" "VirtualBox VMs/" "Useful/" "tmp/" "Themes/" "test.js" "test/" "temp/" "springsource/" "spring-instrument-3.2.4.RELEASE.jar" "SoapUI-Tutorials/" "soapui-settings.xml" "Snapshots/" "site-lisp/" "Secured/" "sdks.txt" "quicklisp/" "Public/" "provprof.txt" "Projects/" "Pictures/" "perl5/" "ojdbc5_g.jar" "NLResources/" "NetBeansProjects/" "Music/" "Movies/" "mongo_backup/" "luavmandroid.apk" "Library/" "KonySampleApps/" "KonyiOSWorkspace/" "konyapp" "Kony_Studio_Install_04_02_2014_11_31_34.log" "JSScripts/" "JSApplication.m" "jmeter.log" "jekyll/" "java0.log" "Icon
+" "home 2/" "home/" "hello.png" "hello.cl~" "hello.cl" "grails-2.2.4/" "Google Drive/" "google/" "github/" "FFI/" "emacs24-starter-kit/" "elpa/" "el-get/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Design/" "default-soapui-workspace.xml" "Course/" "codesign.txt" "code/" "Books/" "Blog/" "bin/" "Backup/" "auto-save-list/" "Articles/" "AppSource/" "Applications (Parallels)/" "Applications/" "appengine/" "AndroidStudioProjects/" "android-sdks/" "android-sdk/" "2014-05-20-02-30.tar.gz" ".zshrc" ".zprofile" ".yjp/" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".viminfo" ".vim/" ".Trash/" ".subversion/" ".ssh/" ".sqlite_history" ".sqldeveloper/" ".slime-history.eld" ".slime/" ".shuttle.json~" ".shuttle.json" ".sh_history" ".serverauth.894" ".serverauth.50747" ".serverauth.4073" ".serverauth.362" ".sbclrc" ".rvm/" ".rnd" ".recentf~" ".recentf" ".Rapp.history" ".octaverc" ".octave_hist" ".npm/" ".mongorc.js" ".m2/" ".local/" ".lispworks-config/" ".lighttable/" ".lein/" ".kony/" ".keditor/" ".InstallAnywhere/" ".immutant/" ".ido.last~" ".ido.last" ".idapro/" ".home/" ".groovy/" ".grails_history" ".grails/" ".gradle/" ".gitconfig" ".ghc/" ".gem/" ".fontconfig/" ".emacs~" ".emacs.desktop" ".emacs.d/" ".eclipse_keyring" ".DS_Store" ".dropbox.cache/" ".dropbox-master/" ".dropbox/" ".distlib/" ".dbshell" ".cups/" ".cpan/" ".config/" ".cocoapods/" ".CFUserTextEncoding" ".cache/" ".bzr.log" ".bundler/" ".bashrc" ".bash_profile" ".bash_history" ".aws" ".atom/" ".appcfg_oauth2_tokens" ".appcfg_nag" ".android/" "../" "./")
+
+ ("/Users/jackyshum/Google Drive/cx/service-matrix/modules/js/" (21365 44770 0 0) "underscore-min.js" "timelineRemarkData.js" "serviceSelectController.js" "serviceReminderData.js" "serviceReminderController.js" "serviceProcedureData.js" "serviceProcedureController.js" "servicePlanData.js" "serviceMenuButton.js" "serviceMatrixDataLoader.js" "ruleengine.js" "OTAUpdate.js" "moment.min.js" "mockdata.js" "mealCodeData.js" "konylibrary.js" "innoCore.js" "event.js" "errorReportController.js" "appInit.js" "#mockdata.js#" "../" "./")
+
+ ("/Users/jackyshum/Google Drive/cx/service-matrix/modules/" (21143 2873 0 0) "lua/" "js/" ".DS_Store" "../" "./")
+
+ ("/Users/jackyshum/Google Drive/cx/service-matrix/" (21344 38836 0 0) "windowsViews.xml" "widgetinfo.properties" "web_module/" "upgrade_actions_5.5.properties" "upgrade_actions_5.0.properties" "upgrade_actions_4.5.properties" "upgrade_actions_3.2.properties" "upgrade_actions_3.1.properties" "upgrade_actions_2.6.properties" "ui_tests/" "themes/" "testbed/" "templates/" "targetfiltersettings.xml" "sync/" "signing_scripts/" "services/" "servicePlanDiff.txt" "ServiceMatrixmappings.xml" "ServiceMatrixHD.properties" "ServiceMatrix.properites" "ServiceMatrix.keystore" "run.sh" "run.bat" "resources/" "projecttabletevents.xml" "projectsplash.xml" "projectskin.xml" "projectprop.xml" "projectevents.xml" "projectdesktop_kioskevents.xml" "offlineservices/" "modules/" "middleware.properties" "lua_widget_m4_info.properties" "konyplugins.xml" "jssrc/" "jsFfiMappings.xml" "iphoneappmenu.xml" "InnoUtils.jar" "InnoHttpRequest.jar" "globalsequences_tablet.xml" "globalsequences.xml" "global.properties" "forms/" "formicon.properties" "editor2/" "editor/" "dialogs/" "defaults/" "customwidgets/" "context.properties" "build.xml" "build.py" "build.properties" "bgimages/" "appSettings.xml" "ant-contrib-0.6.jar" ".settings/" ".project" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/jackyshum/Google Drive/cx/" (21382 45059 0 0) "ServiceMatrix.keystore" "service-matrix-admin/" "service-matrix/" "poc/" "notes.org~" "notes.org" "node/" "navigation/" "loungecheckin/" "linux.org~" "linux.org" "kony/" "java/" "IOSFFI/" "ios/" "InnoUtils/" "InnoLib/" "ijourneylite-service/" "ijourneylite/" "ide.lic" "ICEOpenJawPOC/" "ICELoginPOC/" "ICE-mobile/" "ICE/" "ibeaconnavigation/" "FFI/" "epil-mobile/" "cxstats/" "certs/" "BestBuy/" "backup/" "asia-miles-prototype/" "Archive/" "apps backup/" "airports.dat" ".home/" ".DS_Store" ".#notes.org" "#notes.org#" "../" "./")
+
+ ("/Users/jackyshum/Google Drive/" (21382 33711 0 0) "Icon
+" "ICE-Mobile-Login-PoC-Msg-v0.2.xlsx" "ICE-Mobile-Login-PoC-Msg-v0.2.gsheet" "How to get started with Drive" "cx/" "Cathay/" ".DS_Store" "../" "./")
+
+ ("/Users/jackyshum/Dropbox/cx/" (21382 35222 0 0) "../" "./")
+
+ ("/var/" (21107 23716 0 0) "yp/" "vm/" "tmp/" "spool/" "rwho/" "run/" "rpc/" "root/" "networkd/" "netboot/" "msgs/" "mail/" "log/" "lib/" "jabberd/" "folders/" "empty/" "db/" "backups/" "audit/" "at/" "agentx/" ".Parallels_swap/" "../" "./")
+
+ ("/var/log/" (21381 12848 0 0) "wifi.log" "weekly.out" "uucp/" "system.log.4.gz" "system.log.3.gz" "system.log.2.gz" "system.log.1.gz" "system.log.0.gz" "system.log" "shutdown_monitor.log" "sa/" "prl_disp_service_server.log" "ppp/" "powermanagement/" "performance/" "opendirectoryd.log.9" "opendirectoryd.log.8" "opendirectoryd.log.7" "opendirectoryd.log.6" "opendirectoryd.log.5" "opendirectoryd.log.4" "opendirectoryd.log.3" "opendirectoryd.log.2" "opendirectoryd.log.1" "opendirectoryd.log.0" "opendirectoryd.log" "notifyd.log" "monthly.out" "module/" "McAfeeSecurity.log" "install.log" "hdiejectd.log" "fsck_hfs.log" "fax/" "emond/" "displaypolicyd.stdout.log" "displaypolicyd.log" "DiagnosticMessages/" "daily.out" "cups/" "com.apple.revisiond/" "com.apple.launchd.peruser.97/" "com.apple.launchd.peruser.92/" "com.apple.launchd.peruser.89/" "com.apple.launchd.peruser.55/" "com.apple.launchd.peruser.504/" "com.apple.launchd.peruser.501/" "com.apple.launchd.peruser.26/" "com.apple.launchd.peruser.212/" "com.apple.launchd.peruser.202/" "com.apple.launchd.peruser.201/" "com.apple.launchd.peruser.200/" "com.apple.launchd.peruser.0/" "com.apple.launchd/" "CDIS.custom" "bookstore.log" "authd.log.5.gz" "authd.log.4.gz" "authd.log.3.gz" "authd.log.2.gz" "authd.log.1.gz" "authd.log.0.gz" "authd.log" "asl/" "appstore.log" "apache2/" "../" "./")
+
+ ("/Users/" (21150 52773 0 0) "Shared/" "jackyshum/" "Guest/" ".localized" "../" "./")
+
+ ("/Users/jackyshum/Dropbox/cx/ICELoginPOC/" (21381 35914 0 0) "windowsViews.xml" "widgetinfo.properties" "web_module/" "upgrade_actions_5.5.properties" "upgrade_actions_5.0.properties" "upgrade_actions_4.5.properties" "upgrade_actions_3.2.properties" "upgrade_actions_3.1.properties" "upgrade_actions_2.6.properties" "themes/" "templates/" "targetfiltersettings.xml" "services/" "run.sh" "run.bat" "resources/" "projecttabletevents.xml" "projectsplash.xml" "projectskin.xml" "projectprop.xml" "projectevents.xml" "projectdesktop_kioskevents.xml" "offlineservices/" "modules/" "middleware.properties" "lua_widget_m4_info.properties" "konyplugins.xml" "jssrc/" "jsFfiMappings.xml" "ICELoginPOCmappings.xml" "globalsequences.xml" "global.properties" "forms/" "formicon.properties" "dialogs/" "defaults/" "customwidgets/" "context.properties" "build.xml" "build.properties" "appSettings.xml" "ant-contrib-0.6.jar" ".project" ".home/" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/jackyshum/Dropbox/cx/ICELoginPOC/modules/js/" (21381 34939 0 0) "login.js~" "login.js" "konylibrary.js" ".DS_Store" "../" "./")
+
+ ("/Users/jackyshum/Dropbox/cx/ICELoginPOC/modules/" (21381 12357 0 0) "js/" ".DS_Store" "../" "./")
+
+ ("/Users/jkshum/Dropbox/appengine/minialbum/" (21366 53419 0 0) "utils.pyc" "utils.py" "Tests/" "settings.pyc" "settings.py" "pbkdf2.pyc" "pbkdf2.py" "notes.org" "models.py~" "models.pyc" "models.py" "main.pyc" "main.py" "index.yaml" "handlers.py~" "handlers.pyc" "handlers.py" "error.pyc" "error.py" "doc.org~" "doc.org" "app.yaml" ".gitignore~" ".gitignore" ".git/" "#notes.org#" "#doc.org#" "#.gitignore#" "../" "./")
+>>>>>>> FETCH_HEAD
 
  ("/Users/jkshum/Dropbox/" (21376 31635 0 0) "Useful/" "Secured/" "Public/" "Projects/" "ios/" "Icon
 " "Design/" "Course/" "clojure/" "Camera Uploads/" "Books/" "Blog/" "Backup/" "Articles/" "Apps/" "appengine/" ".emacs.desktop" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")

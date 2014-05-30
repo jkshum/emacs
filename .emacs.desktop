@@ -2,208 +2,40 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-<<<<<<< HEAD
-<<<<<<< HEAD
-;; Created Fri May 30 20:35:31 2014
-=======
-;; Created Wed May 28 21:19:46 2014
->>>>>>> FETCH_HEAD
-=======
-;; Created Thu May 29 14:34:17 2014
->>>>>>> FETCH_HEAD
+;; Created Fri May 30 21:32:50 2014
 ;; Desktop file format version 206
 ;; Emacs version 24.4.50.1
 
 ;; Global section:
-<<<<<<< HEAD
-<<<<<<< HEAD
-(setq desktop-saved-frameset [frameset 1 (21384 31507 359753 0) (desktop . "206") "jkshum@Shums-MacBook-Air.local" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-apple-Menlo-medium-normal-normal-*-16-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (line-spacing) (left-fringe . 15) (right-fringe . 15) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen . fullboth) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "white") (environment) (frameset--id . "B42B-5711-1D41-2189") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (display . "Shums-MacBook-Air.local") (explicit-name) (tool-bar-position . top) (visibility . t) (height . 37) (width . 124) (left . 0) (top + -720)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 5) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 76) (min-pixel-width . 100) (min-pixel-height-ignore . 38) (min-pixel-width-ignore . 50) (min-pixel-height-safe . 19) (min-pixel-width-safe . 20)) leaf (pixel-width . 1276) (pixel-height . 697) (total-width . 127) (total-height . 36) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 12 12 nil) (margins nil) (scroll-bars 0 0 nil nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))))])
+(setq desktop-saved-frameset [frameset 1 (21384 34946 517187 0) (desktop . "206") "jkshum@jacky-shums-imac.local" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Monaco-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (line-spacing) (left-fringe . 12) (right-fringe . 12) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen . fullboth) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "white") (environment) (frameset--id . "8AB0-4B53-F99E-924E") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (display . "jacky-shums-imac.local") (explicit-name) (tool-bar-position . top) (visibility . t) (height . 62) (width . 236) (left . 0) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 10) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 76) (min-pixel-width . 160) (min-pixel-height-ignore . 38) (min-pixel-width-ignore . 80) (min-pixel-height-safe . 19) (min-pixel-width-safe . 32)) hc (pixel-width . 1916) (pixel-height . 1177) (total-width . 240) (total-height . 61) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 956) (pixel-height . 1177) (total-width . 120) (total-height . 61) (normal-height . 1.0) (normal-width . 0.5) (buffer ".gitignore" (selected . t) (hscroll . 0) (fringes 12 12 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 204) (start . 1))) (leaf (last . t) (pixel-width . 960) (pixel-height . 1177) (total-width . 120) (total-height . 61) (normal-height . 1.0) (normal-width . 0.5) (buffer "*Help*" (selected) (hscroll . 0) (fringes 12 12 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("font" "Album" "remove_subscriber" "remove"))
-(setq regexp-search-ring nil)
-(setq register-alist (list (desktop-list* 114 (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,6680 (get-buffer ,"handlers.py")))) mk))))
-(setq file-name-history '("~/.emacs.d/init.el" "/Users/jkshum/.emacs.d/init.el" "/Users/jkshum/Dropbox/appengine/minialbum/handlers.py" "~/.emacs.d/init.el" "/Users/jkshum/.emacs.d/init.el" "/ssh:imtjks@119.9.88.32:/home/imtjks/mongo_backup/backup" "/bin/bash" "/ssh:imtjks@119.9.88.32:" "/Users/jkshum/Dropbox/cx/notes.org" "/Users/jkshum/Dropbox/appengine/minialbum/notes.org" "/Users/jkshum/Dropbox/appengine/minialbum/Tests/init.sh" "/Users/jkshum/Dropbox/appengine/minialbum/Tests/rest_test.py" "/Users/jkshum/Dropbox/appengine/minialbum/handlers.py" "/Users/jkshum/Dropbox/appengine/minialbum/main.py" "/Users/jkshum/Dropbox/appengine/minialbum/Tests/init.sh" "/Users/jkshum/Dropbox/appengine/minialbum/settings.py" "/Users/jkshum/Dropbox/cx/notes.org" "/Users/jkshum/Dropbox/appengine/minialbum/settings.py" "/Users/jkshum/Dropbox/appengine/minialbum/notes.org" "/Users/jkshum/Dropbox/appengine/minialbum/settings.py" "/Users/jkshum/Dropbox/appengine/minialbum/handlers.py" "/Users/jkshum/Dropbox/appengine/minialbum/main.py" "/Users/jkshum/Dropbox/appengine/minialbum/settings.py" "/Users/jkshum/Dropbox/appengine/minialbum/handlers.py" "/Users/jkshum/Dropbox/appengine/minialbum/Tests/rest_test.py" "/Users/jkshum/Dropbox/appengine/minialbum/handlers.py" "/Users/jkshum/Dropbox/appengine/minialbum/Tests/rest_test.py" "/Users/jkshum/Dropbox/appengine/minialbum/settings.py" "/Users/jkshum/Dropbox/appengine/minialbum/notes.org" "/Users/jkshum/Dropbox/appengine/minialbum/handlers.py" "/Users/jkshum/Dropbox/appengine/minialbum/main.py" "/Users/jkshum/Dropbox/appengine/minialbum/settings.py" "/Users/jkshum/Dropbox/appengine/minialbum/notes.org" "~/Dropbox/appengine/minialbum/utils.py" "~/Dropbox/appengine/minialbum/Tests/curl.org" "~/Dropbox/appengine/minialbum/handlers.py" "~/Dropbox/appengine/minialbum/Tests/rest_test.py"))
-
-;; Buffer section -- buffers listed in same order as in buffer list:
-(desktop-create-buffer 206
-=======
-(setq desktop-saved-frameset [frameset 1 (21381 57970 894042 0) (desktop . "206") "jkshum@jacky-shums-imac.local" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Monaco-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (line-spacing) (left-fringe . 8) (right-fringe . 8) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen . fullboth) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "white") (environment) (frameset--id . "737F-A5F8-9035-F3CA") (frameset--mini t . t) (height . 62) (width . 237) (modeline . t) (minibuffer . t) (unsplittable) (left . 0) (top . 0) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (visibility . t) (display . "jacky-shums-imac.local") (explicit-name) (tool-bar-position . top)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 76) (min-pixel-width . 160) (min-pixel-height-ignore . 38) (min-pixel-width-ignore . 64) (min-pixel-height-safe . 19) (min-pixel-width-safe . 32)) hc (pixel-width . 1912) (pixel-height . 1140) (total-width . 239) (total-height . 60) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 956) (pixel-height . 1140) (total-width . 119) (total-height . 60) (normal-height . 1.0) (normal-width . 0.5) (buffer "rest_test.py" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 9534) (start . 8232))) (leaf (last . t) (pixel-width . 956) (pixel-height . 1140) (total-width . 120) (total-height . 60) (normal-height . 1.0) (normal-width . 0.5) (buffer "*Ido Completions*" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 335) (start . 1)))))])
-(setq desktop-missing-file-warning nil)
-(setq tags-file-name nil)
-(setq tags-table-list nil)
-(setq search-ring '("hide" "C-M-up" "C-M-down" "<<<" ">>>"))
+(setq search-ring '("command" "font"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("/Users/jkshum/Dropbox/appengine/minialbum/Tests/rest_test.py" "/Users/jkshum/Dropbox/appengine/minialbum/handlers.py" "/Users/jkshum/Dropbox/appengine/minialbum/main.py" "/Users/jkshum/Dropbox/appengine/minialbum/Tests/rest_test.py" "/Users/jkshum/Dropbox/appengine/minialbum/handlers.py" "~/.emacs.d/init.el" "/Users/jkshum/.emacs.d/init.el" "/Users/jkshum/Dropbox/appengine/minialbum/Tests/rest_test.py" "/Users/jkshum/Dropbox/appengine/minialbum/handlers.py" "/Users/jkshum/Dropbox/appengine/minialbum/settings.py" "/Users/jkshum/.emacs.d/init.el" "~/Dropbox/appengine/minialbum/notes.org" "~/Dropbox/appengine/minialbum/handlers.py" "~/.emacs.d/el-get/.loaddefs.el" "~/.emacs.d/init.el" "~/Dropbox/appengine/minialbum/utils.py" "~/Dropbox/appengine/minialbum/Tests/rest_test.py"))
+(setq file-name-history '("/Users/jkshum/.emacs.d/.gitignore" "~/.emacs.d/init.el" "/Users/jkshum/.emacs.d/init.el"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/Users/jkshum/Dropbox/appengine/minialbum/Tests/rest_test.py"
-  "rest_test.py"
-  'python-mode
-  '(auto-complete-mode yas-minor-mode)
-  9534
-  '(2445 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/Users/jkshum/Dropbox/appengine/minialbum/handlers.py"
-  "handlers.py"
-  'python-mode
-  '(auto-complete-mode yas-minor-mode)
-  7559
-  '(7155 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/Users/jkshum/Dropbox/appengine/minialbum/main.py"
-  "main.py"
-  'python-mode
-  '(auto-complete-mode yas-minor-mode)
-  1980
-  '(nil nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/Users/jkshum/Dropbox/appengine/minialbum/notes.org"
-  "notes.org"
-  'org-mode
+  "/Users/jkshum/.emacs.d/.gitignore"
+  ".gitignore"
+  'fundamental-mode
   '(yas-minor-mode)
-  480
-  '(480 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
->>>>>>> FETCH_HEAD
-  "/Users/jkshum/.emacs.d/init.el"
-  "init.el"
-  'emacs-lisp-mode
-  '(auto-complete-mode paredit-mode yas-minor-mode flycheck-mode)
-<<<<<<< HEAD
-  1
-  '(2806 nil)
-=======
-  2097
-  '(1551 nil)
->>>>>>> FETCH_HEAD
-=======
-(setq desktop-saved-frameset [frameset 1 (21382 54505 530083 0) (desktop . "206") "jackyshum@JackyMac.local" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (line-spacing) (left-fringe . 8) (right-fringe . 8) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "white") (environment) (frameset--id . "10C5-6EEB-88F3-54CB") (frameset--mini t . t) (height . 35) (width . 80) (modeline . t) (minibuffer . t) (unsplittable) (left . 0) (top . 22) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (visibility . t) (display . "JackyMac.local") (explicit-name) (tool-bar-position . top)) ((min-height . 8) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 4) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 128) (min-pixel-width . 80) (min-pixel-height-ignore . 64) (min-pixel-width-ignore . 32) (min-pixel-height-safe . 32) (min-pixel-width-safe . 16)) vc (pixel-width . 656) (pixel-height . 544) (total-width . 82) (total-height . 34) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 656) (pixel-height . 272) (total-width . 82) (total-height . 17) (normal-height . 0.5) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 4455) (start . 4455))) (leaf (last . t) (pixel-width . 656) (pixel-height . 272) (total-width . 82) (total-height . 17) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Warnings*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 337) (start . 1)))))])
-(setq desktop-missing-file-warning nil)
-(setq tags-file-name nil)
-(setq tags-table-list nil)
-(setq search-ring '("ac-mo"))
-(setq regexp-search-ring nil)
-(setq register-alist nil)
-(setq file-name-history '("~/.emacs.d/" "/Users/jackyshum/.emacs.d/init.el" "~/.emacs.d/init.el" "~/.emacs.d/elpa/archives/gnu/archive-contents" "~/.emacs.d/elpa/archives/elpa/archive-contents" "~/.emacs.d/el-get/.loaddefs.el" "~/.emacs.d/elpa/wgrep-readme.txt" "~/Google Drive/cx/notes.org" "~/Dropbox/cx/notes.org" "~/Google Drive/cx/service-matrix/modules/js/OTAUpdate.js" "/ssh:imtjks@119.9.88.32:/home/imtjks/mongo_backup/backup" "~/2014-05-20-02-30.tar.gz"))
-
-;; Buffer section -- buffers listed in same order as in buffer list:
-(desktop-create-buffer 206
-  "/Users/jackyshum/.emacs.d/init.el"
-  "init.el"
-  'emacs-lisp-mode
-  '(paredit-mode yas-minor-mode)
-  4455
-  '(4455 nil)
->>>>>>> FETCH_HEAD
-  nil
-  nil
-  '((buffer-file-coding-system . prefer-utf-8-unix)))
-
-<<<<<<< HEAD
-(desktop-create-buffer 206
-<<<<<<< HEAD
-  "/Users/jkshum/Dropbox/appengine/minialbum/handlers.py"
-  "handlers.py"
-  'python-mode
-  '(auto-complete-mode yas-minor-mode)
-  581
-  '(6835 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/Users/jkshum/Dropbox/appengine/minialbum/main.py"
-  "main.py"
-  'python-mode
-  '(auto-complete-mode yas-minor-mode)
-  1979
-  '(1345 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-=======
->>>>>>> FETCH_HEAD
-  "/Users/jkshum/Dropbox/appengine/minialbum/settings.py"
-  "settings.py"
-  'python-mode
-  '(auto-complete-mode yas-minor-mode)
-<<<<<<< HEAD
-  52
-  '(56 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/Users/jkshum/Dropbox/cx/notes.org"
-  "notes.org"
-  'org-mode
-  '(yas-minor-mode)
-  427
-  '(62 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/Users/jkshum/Dropbox/appengine/minialbum/notes.org"
-  "notes.org"
-  'org-mode
-  '(yas-minor-mode)
-  887
-  '(31 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/Users/jkshum/Dropbox/appengine/minialbum/Tests/init.sh"
-  "init.sh"
-  'sh-mode
-  '(auto-complete-mode yas-minor-mode flycheck-mode)
-  653
-  '(226 nil)
+  204
+  '(1 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
-  "/Users/jkshum/Dropbox/appengine/minialbum/Tests/rest_test.py"
-  "rest_test.py"
-  'python-mode
-  '(auto-complete-mode yas-minor-mode)
-  8083
-  '(1 nil)
-=======
-  70
-  '(70 nil)
->>>>>>> FETCH_HEAD
+  "/Users/jkshum/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(auto-complete-mode paredit-mode yas-minor-mode flycheck-mode)
+  2671
+  '(3634 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
 
-=======
->>>>>>> FETCH_HEAD

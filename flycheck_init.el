@@ -14,6 +14,7 @@
 		      cider
 		      idomenu
 		      company
+		      bash-completion
                       ))
 
 ; list the repositories containing them
@@ -73,7 +74,6 @@
 (set-face-attribute 'default nil :height 140)
 (load-theme 'zenburn)
 (add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
-(set-frame-font "Inconsolata 16")
 
 ;ido
 (ido-mode 1)
@@ -130,8 +130,36 @@
 ;(add-hook 'after-init-hook 'global-company-mode)
 
 (yas-global-mode 1) ;; or M-x yas-reload-all if you've started YASnippet already.
-
+(add-to-list 'ac-modes 'objc-mode)
 ;; --- Obj-C switch between header and source ---
+
+(defun objc-in-header-file ()
+  (let* ((filename (buffer-file-name))
+         (extension (car (last (split-string filename "\\.")))))
+    (string= "h" extension)))
+
+(defun objc-jump-to-extension (extension)
+  (let* ((filename (buffer-file-name))
+         (file-components (append (butlast (split-string filename
+                                                         "\\."))
+                                  (list extension))))
+    (find-file (mapconcat 'identity file-components "."))))
+
+;;; Assumes that Header and Source file are in same directory
+(defun objc-jump-between-header-source ()
+  (interactive)
+  (if (objc-in-header-file)
+      (objc-jump-to-extension "m")
+
+    (objc-jump-to-extension "h")))
+
+(defun objc-mode-customizations ()
+  (define-key objc-mode-map (kbd "C-c t") 'objc-jump-between-header-source))
+
+(setq-default c-basic-offset 4)
+
+
+(add-hook 'objc-mode-hook 'objc-mode-customizations)
 
 (setq yas-snippet-dirs
       '("~/.emacs.d/el-get/yasnippet/snippets"))
@@ -145,7 +173,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "dd4db38519d2ad7eb9e2f30bc03fba61a7af49a185edfd44e020aa5345e3dca7" default))))
+    ("dd4db38519d2ad7eb9e2f30bc03fba61a7af49a185edfd44e020aa5345e3dca7" default))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

@@ -27,6 +27,7 @@
 ;; ----- ido-work-directory-list -----
 (
 <<<<<<< HEAD
+<<<<<<< HEAD
  "/Users/jkshum/.emacs.d/"
  "/Users/jkshum/Dropbox/appengine/minialbum/"
  "/ssh:imtjks@119.9.88.32:/home/imtjks/mongo_backup/"
@@ -34,6 +35,9 @@
  "/ssh:imtjks@119.9.88.32:/home/imtjks/"
  "/ssh:imtjks@119.9.88.32:"
  "/Users/jkshum/Dropbox/cx/"
+=======
+ "/Users/jkshum/Dropbox/appengine/minialbum/Tests/"
+>>>>>>> FETCH_HEAD
 =======
  "/Users/jackyshum/.emacs.d/"
  "/Users/jackyshum/Google Drive/cx/service-matrix/modules/js/"
@@ -45,14 +49,26 @@
  "/Users/jackyshum/"
  "/Users/jackyshum/Dropbox/cx/ICELoginPOC/modules/js/"
  "/Users/jackyshum/Dropbox/cx/"
+>>>>>>> FETCH_HEAD
  "/Users/jkshum/Dropbox/appengine/minialbum/"
  "/Users/jkshum/.emacs.d/"
+<<<<<<< HEAD
 >>>>>>> FETCH_HEAD
  "/Users/jkshum/Dropbox/appengine/minialbum/Tests/"
+=======
+>>>>>>> FETCH_HEAD
 )
 
 ;; ----- ido-work-file-list -----
 (
+<<<<<<< HEAD
+ "rest_test.py"
+ "handlers.py"
+ "main.py"
+ "init.el"
+ "settings.py"
+ "notes.org"
+=======
  "init.el"
 <<<<<<< HEAD
  "handlers.py"
@@ -77,9 +93,13 @@
 ;; ----- ido-dir-file-cache -----
 (
 <<<<<<< HEAD
+<<<<<<< HEAD
  ("/Users/jkshum/.emacs.d/" (21384 31235 0 0) "yasobjc.rb" "tramp" "recentf~" "recentf" "init.el~" "init.el" "ido.last~" "ido.last" "eshell/" "elpa/" "el-get/" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" ".DS_Store" ".#init.el" "#init.el#" "../" "./")
 
  ("/Users/jkshum/" (21381 53450 0 0) "wwdc/" "webapps/" "tutorial~" "tutorial" "themes/" "SoapUI-Tutorials/" "site-lisp/" "quicklisp/" "Public/" "Pictures/" "Music/" "Movies/" "line-log/" "Library/" "KonySampleApps/" "iPhone/" "InstallAnywhere/" "init.el~" "init.el" "IdeaProjects/" "hello-world/" "Google Drive/" "git/" "Fiddler2/" "elpa/" "el-get/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "cx/" "Course/" "code/" "clojure-1.5.1/" "Camera Uploads/" "Books/" "Blog/" "bin/" "Backup/" "auto-save-list/" "Articles/" "Apps/" "Applications (Parallels)/" "Applications/" "appengine-java-sdk/" "appengine/" "android-sdk/" "ac-comphist.dat" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".TemporaryItems/" ".subversion/" ".ssh/" ".smex-items" ".slime-history.eld" ".slime/" ".sh_history" ".serverauth.8734" ".sbclrc" ".rnd" ".recentf~" ".recentf" ".putty/" ".psql_history" ".profile" ".pgpass" ".pgadmin_histoqueries" ".npm/" ".netrc" ".mono/" ".mongorc.js" ".MacOSX/" ".m2/" ".lispworks-config/" ".lighttable/" ".lein/" ".kony/" ".keditor/" ".jline-reply.history" ".itmstransporter/" ".InstallAnywhere/" ".ido.last~" ".ido.last" ".heroku/" ".gitconfig" ".ghc/" ".gem/" ".gdb_history" ".fontconfig/" ".filezilla/" ".emacs~" ".emacs.swp" ".emacs.desktop.lock" ".emacs.desktop" ".emacs.d/" ".DS_Store" ".dropbox.cache/" ".dropbox-master/" ".dropbox/" ".DownloadManager/" ".distlib/" ".dbshell" ".cpan/" ".config/" ".cocoapods/" ".CFUserTextEncoding" ".cache/" ".bash_profile" ".bash_history" ".aws" ".atom/" ".appcfg_nag" ".appcfg_cookies" ".apdisk" ".#mynotes.org" "#mynotes.org#" "../" "./")
+=======
+ ("/Users/jkshum/Dropbox/appengine/minialbum/" (21377 17929 0 0) "utils.pyc" "utils.py" "Tests/" "settings.pyc" "settings.py" "pbkdf2.pyc" "pbkdf2.py" "notes.org" "models.py~" "models.pyc" "models.py" "main.pyc" "main.py" "index.yaml" "handlers.py~" "handlers.pyc" "handlers.py" "error.pyc" "error.py" "doc.org~" "doc.org" "app.yaml" ".gitignore~" ".gitignore" ".git/" ".#notes.org" ".#main.py" "#settings.py#" "#notes.org#" "#main.py#" "#doc.org#" "#.gitignore#" "../" "./")
+>>>>>>> FETCH_HEAD
 =======
  ("/Users/jackyshum/.emacs.d/" (21382 54447 0 0) "yasobjc.rb" "tramp" "recentf~" "recentf" "init.el~" "init.el" "ido.last~" "ido.last" "flycheck_init.el" "eshell/" "elpa/" "el-get/" "bookmarks" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" ".emacs.desktop" "../" "./")
 
@@ -115,9 +135,12 @@
  ("/Users/jackyshum/Dropbox/cx/ICELoginPOC/modules/" (21381 12357 0 0) "js/" ".DS_Store" "../" "./")
 
  ("/Users/jkshum/Dropbox/appengine/minialbum/" (21366 53419 0 0) "utils.pyc" "utils.py" "Tests/" "settings.pyc" "settings.py" "pbkdf2.pyc" "pbkdf2.py" "notes.org" "models.py~" "models.pyc" "models.py" "main.pyc" "main.py" "index.yaml" "handlers.py~" "handlers.pyc" "handlers.py" "error.pyc" "error.py" "doc.org~" "doc.org" "app.yaml" ".gitignore~" ".gitignore" ".git/" "#notes.org#" "#doc.org#" "#.gitignore#" "../" "./")
+>>>>>>> FETCH_HEAD
 
- ("/Users/jkshum/.emacs.d/" (21366 53352 0 0) "yasobjc.rb" "recentf" "init.el~" "init.el" "ido.last" "eshell/" "elpa/" "el-get/" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" ".#init.el" "#init.el#" "../" "./")
+ ("/Users/jkshum/Dropbox/" (21376 31635 0 0) "Useful/" "Secured/" "Public/" "Projects/" "ios/" "Icon
+" "Design/" "Course/" "clojure/" "Camera Uploads/" "Books/" "Blog/" "Backup/" "Articles/" "Apps/" "appengine/" ".emacs.desktop" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
 
+<<<<<<< HEAD
  ("/Users/jkshum/Dropbox/" (21366 52959 0 0) "Useful/" "Secured/" "Public/" "Projects/" "ios/" "Icon
 " "google/" "Design/" "Course/" "code/" "clojure/" "Camera Uploads/" "Books/" "Blog/" "Backup/" "Articles/" "Apps/" "appengine/" ".emacs.desktop" ".DS_Store" ".dropbox.cache/" "../" "./")
 >>>>>>> FETCH_HEAD
@@ -132,6 +155,11 @@
  ("/Users/jkshum/Dropbox/cx/node/" (21068 8531 0 0) "../" "./")
 
  ("/Users/jkshum/Dropbox/cx/" (21380 35347 0 0) "ServiceMatrix.keystore" "service-matrix-admin/" "service-matrix/" "poc/" "notes.org~" "notes.org" "node/" "navigation/" "LoungeCheckin/" "linux.org~" "linux.org" "kony/" "java/" "IOSFFI/" "ios/" "InnoUtils/" "InnoLib/" "ijourneylite-service/" "ijourneylite/" "ide.lic" "ICEOpenJawPOC/" "ICELoginPOC/" "ICE-mobile/" "ICE/" "ibeaconnavigation/" "FFI/" "epil-mobile/" "cxstats/" "certs/" "BestBuy/" "backup/" "Archive/" "apps backup/" "airports.dat" ".home/" ".DS_Store" ".#notes.org" "#notes.org#" "#linux.org#" "../" "./")
+=======
+ ("/Users/jkshum/Dropbox/appengine/minialbum/Tests/" (21377 17553 0 0) "unit_test.py~" "unit_test.pyc" "unit_test.py" "rest_test.py~" "rest_test.pyc" "rest_test.py" "photo.png" "notes.org~" "minialbum_test.pyc" "init.sh~" "init.sh" "functional_test.pyc" "func_test.pyc" "curl.org~" "__init__.pyc" "__init__.py" ".#notes.org" "#init.sh#" "../" "./")
+
+ ("/Users/jkshum/.emacs.d/" (21371 22264 0 0) "yasobjc.rb" "recentf~" "recentf" "init.el~" "init.el" "ido.last~" "ido.last" "eshell/" "elpa/" "el-get/" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" "../" "./")
+>>>>>>> FETCH_HEAD
 
  ("/Users/jkshum/Dropbox/appengine/minialbum/Tests/" (21377 14572 0 0) "unit_test.py~" "unit_test.pyc" "unit_test.py" "rest_test.py~" "rest_test.pyc" "rest_test.py" "photo.png" "notes.org~" "minialbum_test.pyc" "init.sh~" "init.sh" "functional_test.pyc" "func_test.pyc" "curl.org~" "__init__.pyc" "__init__.py" ".DS_Store" ".#init.sh" "#init.sh#" "../" "./")
 

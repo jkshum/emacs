@@ -70,6 +70,7 @@
 (set-face-attribute 'default nil :height 140)
 (load-theme 'zenburn)
 (add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
+(set-frame-font "Inconsolata 16")
 
 ;ido
 (ido-mode 1)
@@ -168,7 +169,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("dd4db38519d2ad7eb9e2f30bc03fba61a7af49a185edfd44e020aa5345e3dca7" default))))
+    ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "dd4db38519d2ad7eb9e2f30bc03fba61a7af49a185edfd44e020aa5345e3dca7" default))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

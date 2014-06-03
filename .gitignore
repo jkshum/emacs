@@ -26,3 +26,7 @@ recentf
 *.last
 
 recentf
+
+*.el
+
+*.last

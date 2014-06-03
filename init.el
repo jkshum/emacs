@@ -1,5 +1,5 @@
 ;(setq debug-on-error t)
-(setenv "PATH" "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/usr/local/share/npm/bin")
+(setenv "PATH" "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/usr/local/share/npm/bin:~/android-sdk/tools:~/android-sdk/platform-tools")
 
 (setq package-list  '(zenburn-theme
                       ace-jump-mode
@@ -35,7 +35,7 @@
       (eval-print-last-sexp))))
 (el-get 'sync)
 
-(setq default-directory "~/Dropbox")
+(setq default-directory "~/")
 (menu-bar-mode -1) 
 (tool-bar-mode -1) 
 (scroll-bar-mode -1)

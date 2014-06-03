@@ -3,22 +3,28 @@
 
 (setq mc/cmds-to-run-for-all
       '(
-<<<<<<< HEAD
-	isearch-exit
-	org-self-insert-command
-=======
+	<<<<<<<
+	=======
+	>>>>>>>
+	FETCH_HEAD
+	HEAD
 	backward-delete-char
+	isearch-exit
 	kill-sexp
 	org-self-insert-command
+	org-self-insert-command
 	paredit-forward-kill-word
->>>>>>> FETCH_HEAD
+	wdired-downcase-word
+	wdired-finish-edit
 	))
 
 (setq mc/cmds-to-run-once
       '(
-<<<<<<< HEAD
+	<<<<<<<
+	=======
+	>>>>>>>
+	FETCH_HEAD
+	HEAD
 	ido-switch-buffer
 	isearch-forward-symbol-at-point
-=======
->>>>>>> FETCH_HEAD
 	))

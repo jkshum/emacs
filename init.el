@@ -73,10 +73,11 @@
 (set-face-attribute 'default nil :height 140)
 (load-theme 'zenburn)
 (add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
+(set-frame-font "Monaco 14")
 
 ;ido
 (ido-mode 1)
-(setq ido-enable-flex-matching t)
+(setq ido-enablle-flex-matching t)
 (setq ido-everywhere t)
 (autoload 'idomenu "idomenu" nil t)
 
@@ -137,6 +138,13 @@
 
 (load (expand-file-name "~/quicklisp/slime-helper.el"))
 (setq inferior-lisp-program "/usr/local/bin/sbcl")
+
+(defun beautify-json ()
+  (interactive)
+  (let ((b (if mark-active (min (point) (mark)) (point-min)))
+        (e (if mark-active (max (point) (mark)) (point-max))))
+    (shell-command-on-region b e
+     "python -mjson.tool" (current-buffer) t)))
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -151,9 +159,3 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-(defun beautify-json ()
-  (interactive)
-  (let ((b (if mark-active (min (point) (mark)) (point-min)))
-        (e (if mark-active (max (point) (mark)) (point-max))))
-    (shell-command-on-region b e
-     "python -mjson.tool" (current-buffer) t)))

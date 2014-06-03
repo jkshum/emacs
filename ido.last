@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+<<<<<<< HEAD
  ("/Users/jackyshum/.emacs.d/" . "el-get/")
  ("/Users/jackyshum/google/cx/asia-miles-prototype/" . "AsiaMiles-Prototype.xcodeproj/")
  ("/Users/jackyshum/google/cx/" . "asia-miles-prototype/")
@@ -25,13 +26,19 @@
  ("/Users/jackyshum/Dropbox/" . "Blog/")
  ("/Users/jkshum/Dropbox/appengine/minialbum/" . "Tests/")
  ("/Users/jkshum/" . "Dropbox/")
+=======
+>>>>>>> FETCH_HEAD
  ("/Users/jkshum/Dropbox/appengine/" . "minialbum/")
- ("/Users/jkshum/Dropbox/Apps/" . "Byword/")
  ("/Users/jkshum/Dropbox/" . "appengine/")
+ ("/ssh:imtjks@119.9.88.32:/home/imtjks/" . "mongo_backup/")
+ ("/Users/jkshum/Dropbox/cx/" . "node/")
+ ("/Users/jkshum/Dropbox/appengine/minialbum/" . "Tests/")
+ ("/Users/jkshum/" . "Dropbox/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+<<<<<<< HEAD
  "/Users/jackyshum/Dropbox/Blog/"
  "/Users/jackyshum/.emacs.d/el-get/"
  "/Users/jackyshum/.emacs.d/"
@@ -51,13 +58,21 @@
  "/Users/jackyshum/"
  "/Users/jackyshum/Dropbox/cx/ICELoginPOC/modules/js/"
  "/Users/jackyshum/Dropbox/cx/"
+=======
+>>>>>>> FETCH_HEAD
  "/Users/jkshum/Dropbox/appengine/minialbum/"
- "/Users/jkshum/.emacs.d/"
  "/Users/jkshum/Dropbox/appengine/minialbum/Tests/"
+ "/Users/jkshum/.emacs.d/"
+ "/ssh:imtjks@119.9.88.32:/home/imtjks/mongo_backup/"
+ "/ssh:imtjks@119.9.88.32:/var/log/"
+ "/ssh:imtjks@119.9.88.32:/home/imtjks/"
+ "/ssh:imtjks@119.9.88.32:"
+ "/Users/jkshum/Dropbox/cx/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+<<<<<<< HEAD
  "init.el"
  "project.pbxproj"
  "httpd.conf"
@@ -67,10 +82,23 @@
  "ssl_access_log"
  "2014-05-20-02-30.tar.gz"
  "login.js"
+=======
+ "notes.org"
+ "init.sh"
+ "settings.py"
+ "init.el"
+ "handlers.py"
+ "backup"
+ "rest_test.py"
+ "main.py"
+ "utils.py"
+ "curl.org"
+>>>>>>> FETCH_HEAD
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+<<<<<<< HEAD
  ("/Users/jackyshum/Dropbox/" (21384 21174 0 0) "Useful/" "Secured/" "Project/" "ios/" "Icon
 " "Design/" "cx/" "Course/" "clojure/" "Books/" "Blog/" "Backup/" "Articles/" "appengine/" ".emacs.desktop" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
 
@@ -112,35 +140,37 @@
  ("/Users/jackyshum/Google Drive/cx/service-matrix/modules/" (21143 2873 0 0) "lua/" "js/" ".DS_Store" "../" "./")
 
  ("/Users/jackyshum/Google Drive/cx/service-matrix/" (21344 38836 0 0) "windowsViews.xml" "widgetinfo.properties" "web_module/" "upgrade_actions_5.5.properties" "upgrade_actions_5.0.properties" "upgrade_actions_4.5.properties" "upgrade_actions_3.2.properties" "upgrade_actions_3.1.properties" "upgrade_actions_2.6.properties" "ui_tests/" "themes/" "testbed/" "templates/" "targetfiltersettings.xml" "sync/" "signing_scripts/" "services/" "servicePlanDiff.txt" "ServiceMatrixmappings.xml" "ServiceMatrixHD.properties" "ServiceMatrix.properites" "ServiceMatrix.keystore" "run.sh" "run.bat" "resources/" "projecttabletevents.xml" "projectsplash.xml" "projectskin.xml" "projectprop.xml" "projectevents.xml" "projectdesktop_kioskevents.xml" "offlineservices/" "modules/" "middleware.properties" "lua_widget_m4_info.properties" "konyplugins.xml" "jssrc/" "jsFfiMappings.xml" "iphoneappmenu.xml" "InnoUtils.jar" "InnoHttpRequest.jar" "globalsequences_tablet.xml" "globalsequences.xml" "global.properties" "forms/" "formicon.properties" "editor2/" "editor/" "dialogs/" "defaults/" "customwidgets/" "context.properties" "build.xml" "build.py" "build.properties" "bgimages/" "appSettings.xml" "ant-contrib-0.6.jar" ".settings/" ".project" ".gitignore" ".git/" ".DS_Store" "../" "./")
+=======
+ ("/Users/jkshum/Dropbox/appengine/minialbum/Tests/" (21381 60973 0 0) "unit_test.py~" "unit_test.pyc" "unit_test.py" "rest_test.py~" "rest_test.pyc" "rest_test.py" "photo.png" "notes.org~" "minialbum_test.pyc" "init.sh~" "init.sh" "functional_test.pyc" "func_test.pyc" "curl.org~" "__init__.pyc" "__init__.py" ".DS_Store" "#init.sh#" "../" "./")
 
- ("/var/" (21107 23716 0 0) "yp/" "vm/" "tmp/" "spool/" "rwho/" "run/" "rpc/" "root/" "networkd/" "netboot/" "msgs/" "mail/" "log/" "lib/" "jabberd/" "folders/" "empty/" "db/" "backups/" "audit/" "at/" "agentx/" ".Parallels_swap/" "../" "./")
+ ("/Users/jkshum/Dropbox/appengine/minialbum/" (21385 55873 0 0) "utils.pyc" "utils.py" "Tests/" "settings.pyc" "settings.py" "pbkdf2.pyc" "pbkdf2.py" "notes.org~" "notes.org" "models.py~" "models.pyc" "models.py" "main.pyc" "main.py" "index.yaml" "handlers.py~" "handlers.pyc" "handlers.py" "error.pyc" "error.py" "doc.org~" "doc.org" "app.yaml" ".gitignore~" ".gitignore" ".git/" ".DS_Store" "#settings.py#" "#main.py#" "#doc.org#" "#.gitignore#" "../" "./")
 
- ("/var/log/" (21381 12848 0 0) "wifi.log" "weekly.out" "uucp/" "system.log.4.gz" "system.log.3.gz" "system.log.2.gz" "system.log.1.gz" "system.log.0.gz" "system.log" "shutdown_monitor.log" "sa/" "prl_disp_service_server.log" "ppp/" "powermanagement/" "performance/" "opendirectoryd.log.9" "opendirectoryd.log.8" "opendirectoryd.log.7" "opendirectoryd.log.6" "opendirectoryd.log.5" "opendirectoryd.log.4" "opendirectoryd.log.3" "opendirectoryd.log.2" "opendirectoryd.log.1" "opendirectoryd.log.0" "opendirectoryd.log" "notifyd.log" "monthly.out" "module/" "McAfeeSecurity.log" "install.log" "hdiejectd.log" "fsck_hfs.log" "fax/" "emond/" "displaypolicyd.stdout.log" "displaypolicyd.log" "DiagnosticMessages/" "daily.out" "cups/" "com.apple.revisiond/" "com.apple.launchd.peruser.97/" "com.apple.launchd.peruser.92/" "com.apple.launchd.peruser.89/" "com.apple.launchd.peruser.55/" "com.apple.launchd.peruser.504/" "com.apple.launchd.peruser.501/" "com.apple.launchd.peruser.26/" "com.apple.launchd.peruser.212/" "com.apple.launchd.peruser.202/" "com.apple.launchd.peruser.201/" "com.apple.launchd.peruser.200/" "com.apple.launchd.peruser.0/" "com.apple.launchd/" "CDIS.custom" "bookstore.log" "authd.log.5.gz" "authd.log.4.gz" "authd.log.3.gz" "authd.log.2.gz" "authd.log.1.gz" "authd.log.0.gz" "authd.log" "asl/" "appstore.log" "apache2/" "../" "./")
+ ("/Users/jkshum/.emacs.d/" (21384 35875 0 0) "init.el~" "init.el" "ido.last" "eshell/" "elpa/" "el-get/" "bookmarks" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" ".DS_Store" "../" "./")
 
- ("/Users/" (21150 52773 0 0) "Shared/" "jackyshum/" "Guest/" ".localized" "../" "./")
+ ("/Users/jkshum/Dropbox/" (21384 31543 0 0) "Useful/" "Secured/" "Public/" "Project/" "ios/" "Icon
+" "Design/" "cx/" "Course/" "clojure/" "Camera Uploads/" "Books/" "Blog/" "Backup/" "Articles/" "Apps/" "appengine/" ".emacs.desktop" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
 
- ("/Users/jackyshum/Dropbox/cx/ICELoginPOC/" (21381 35914 0 0) "windowsViews.xml" "widgetinfo.properties" "web_module/" "upgrade_actions_5.5.properties" "upgrade_actions_5.0.properties" "upgrade_actions_4.5.properties" "upgrade_actions_3.2.properties" "upgrade_actions_3.1.properties" "upgrade_actions_2.6.properties" "themes/" "templates/" "targetfiltersettings.xml" "services/" "run.sh" "run.bat" "resources/" "projecttabletevents.xml" "projectsplash.xml" "projectskin.xml" "projectprop.xml" "projectevents.xml" "projectdesktop_kioskevents.xml" "offlineservices/" "modules/" "middleware.properties" "lua_widget_m4_info.properties" "konyplugins.xml" "jssrc/" "jsFfiMappings.xml" "ICELoginPOCmappings.xml" "globalsequences.xml" "global.properties" "forms/" "formicon.properties" "dialogs/" "defaults/" "customwidgets/" "context.properties" "build.xml" "build.properties" "appSettings.xml" "ant-contrib-0.6.jar" ".project" ".home/" ".git/" ".DS_Store" "../" "./")
+ ("/Users/jkshum/" (21381 53450 0 0) "wwdc/" "webapps/" "tutorial~" "tutorial" "themes/" "SoapUI-Tutorials/" "site-lisp/" "quicklisp/" "Public/" "Pictures/" "Music/" "Movies/" "line-log/" "Library/" "KonySampleApps/" "iPhone/" "InstallAnywhere/" "init.el~" "init.el" "IdeaProjects/" "hello-world/" "Google Drive/" "git/" "Fiddler2/" "elpa/" "el-get/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "cx/" "Course/" "code/" "clojure-1.5.1/" "Camera Uploads/" "Books/" "Blog/" "bin/" "Backup/" "auto-save-list/" "Articles/" "Apps/" "Applications (Parallels)/" "Applications/" "appengine-java-sdk/" "appengine/" "android-sdk/" "ac-comphist.dat" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".TemporaryItems/" ".subversion/" ".ssh/" ".smex-items" ".slime-history.eld" ".slime/" ".sh_history" ".serverauth.8734" ".sbclrc" ".rnd" ".recentf~" ".recentf" ".putty/" ".psql_history" ".profile" ".pgpass" ".pgadmin_histoqueries" ".npm/" ".netrc" ".mono/" ".mongorc.js" ".MacOSX/" ".m2/" ".lispworks-config/" ".lighttable/" ".lein/" ".kony/" ".keditor/" ".jline-reply.history" ".itmstransporter/" ".InstallAnywhere/" ".ido.last~" ".ido.last" ".heroku/" ".gitconfig" ".ghc/" ".gem/" ".gdb_history" ".fontconfig/" ".filezilla/" ".emacs~" ".emacs.swp" ".emacs.desktop.lock" ".emacs.desktop" ".emacs.d/" ".DS_Store" ".dropbox.cache/" ".dropbox-master/" ".dropbox/" ".DownloadManager/" ".distlib/" ".dbshell" ".cpan/" ".config/" ".cocoapods/" ".CFUserTextEncoding" ".cache/" ".bash_profile" ".bash_history" ".aws" ".atom/" ".appcfg_nag" ".appcfg_cookies" ".apdisk" ".#mynotes.org" "#mynotes.org#" "../" "./")
 
- ("/Users/jackyshum/Dropbox/cx/ICELoginPOC/modules/js/" (21381 34939 0 0) "login.js~" "login.js" "konylibrary.js" ".DS_Store" "../" "./")
+ ("/Users/" (21224 65043 0 0) "timmyng425/" "Shared/" "jkshum/" "Guest/" ".localized" "../" "./")
 
- ("/Users/jackyshum/Dropbox/cx/ICELoginPOC/modules/" (21381 12357 0 0) "js/" ".DS_Store" "../" "./")
+ ("/Users/jkshum/Dropbox/cx/node/" (21068 8531 0 0) "../" "./")
 
- ("/Users/jkshum/Dropbox/appengine/minialbum/" (21366 53419 0 0) "utils.pyc" "utils.py" "Tests/" "settings.pyc" "settings.py" "pbkdf2.pyc" "pbkdf2.py" "notes.org" "models.py~" "models.pyc" "models.py" "main.pyc" "main.py" "index.yaml" "handlers.py~" "handlers.pyc" "handlers.py" "error.pyc" "error.py" "doc.org~" "doc.org" "app.yaml" ".gitignore~" ".gitignore" ".git/" "#notes.org#" "#doc.org#" "#.gitignore#" "../" "./")
+ ("/Users/jkshum/Dropbox/cx/" (21380 35347 0 0) "ServiceMatrix.keystore" "service-matrix-admin/" "service-matrix/" "poc/" "notes.org~" "notes.org" "node/" "navigation/" "LoungeCheckin/" "linux.org~" "linux.org" "kony/" "java/" "IOSFFI/" "ios/" "InnoUtils/" "InnoLib/" "ijourneylite-service/" "ijourneylite/" "ide.lic" "ICEOpenJawPOC/" "ICELoginPOC/" "ICE-mobile/" "ICE/" "ibeaconnavigation/" "FFI/" "epil-mobile/" "cxstats/" "certs/" "BestBuy/" "backup/" "Archive/" "apps backup/" "airports.dat" ".home/" ".DS_Store" ".#notes.org" "#notes.org#" "#linux.org#" "../" "./")
+>>>>>>> FETCH_HEAD
 
- ("/Users/jkshum/.emacs.d/" (21366 53352 0 0) "yasobjc.rb" "recentf" "init.el~" "init.el" "ido.last" "eshell/" "elpa/" "el-get/" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" ".#init.el" "#init.el#" "../" "./")
-
- ("/Users/jkshum/Dropbox/" (21366 52959 0 0) "Useful/" "Secured/" "Public/" "Projects/" "ios/" "Icon
-" "google/" "Design/" "Course/" "code/" "clojure/" "Camera Uploads/" "Books/" "Blog/" "Backup/" "Articles/" "Apps/" "appengine/" ".emacs.desktop" ".DS_Store" ".dropbox.cache/" "../" "./")
-
- ("/Users/jkshum/Dropbox/appengine/minialbum/Tests/" (21350 15484 0 0) "unit_test.py~" "unit_test.pyc" "unit_test.py" "rest_test.py~" "rest_test.pyc" "rest_test.py" "photo.png" "minialbum_test.pyc" "functional_test.pyc" "func_test.pyc" "curl.org~" "curl.org" "__init__.pyc" "__init__.py" "#rest_test.py#" "../" "./")
-
- ("/Users/jkshum/" (21345 4898 0 0) "xctool/" "webapps/" "Sites/" "quicklisp/" "Public/" "Pictures/" "Music/" "Movies/" "macports/" "Library/" "iPhone/" "Google Drive/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Design/" "Cert/" "Backup/" "Applications/" ".Xcode/" ".Xauthority" ".viminfo" ".Trash/" ".TemporaryItems/" ".subversion/" ".ssh/" ".slime-history.eld" ".slime/" ".sh_history" ".serverauth.291" ".sbclrc" ".qt/" ".python-eggs/" ".putty/" ".profile.pysave" ".profile.macports-saved_2011-11-09_at_23:47:58" ".profile" ".pip/" ".parallels_settings" ".parallels/" ".org.eclipse.epp.usagedata.recording.userId" ".nx/" ".mysql_history" ".m2/" ".lein/" ".itmstransporter/" ".gitconfig" ".gdb_history" ".fontconfig/" ".filezilla/" ".emacs.d/" ".dvdcss/" ".DS_Store" ".dropbox-master/" ".dropbox/" ".distlib/" ".cvspass" ".config/" ".cocoapods/" ".CFUserTextEncoding" ".cache/" ".bzr.log" ".bash_profile" ".bash_history" ".appcfg_nag" ".appcfg_cookies" ".adobe/" "../" "./")
-
- ("/Users/jkshum/Dropbox/appengine/" (21317 31908 0 0) "queuepass_web/" "minialbum/" "../" "./")
+ ("/Users/jkshum/Dropbox/appengine/" (21367 22020 0 0) "queuepass_web/" "minialbum/" ".DS_Store" "../" "./")
 
  ("/Users/jkshum/Dropbox/Apps/Byword/" (21186 58824 0 0) "Untitled.txt" "../" "./")
 
  ("/Users/jkshum/Dropbox/Apps/" (21180 9494 0 0) "Byword/" "../" "./")
+
+ ("/Users/jkshum/.emacs.d/" (21384 33199 0 0) "recentf" "init.el" "eshell/" "elpa/" "el-get/" "bookmarks" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" ".DS_Store" "../" "./")
+
+ ("/Users/jkshum/" (21383 12185 0 0) "xctool/" "webapps/" "temp/" "Sites/" "quicklisp/" "Public/" "Pictures/" "Music/" "Movies/" "macports/" "Library/" "iPhone/" "Google Drive/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Design/" "Cert/" "Backup/" "Applications/" ".Xcode/" ".Xauthority" ".viminfo" ".Trash/" ".TemporaryItems/" ".subversion/" ".ssh/" ".slime-history.eld" ".slime/" ".sh_history" ".serverauth.291" ".sbclrc" ".qt/" ".python-eggs/" ".putty/" ".profile.pysave" ".profile.macports-saved_2011-11-09_at_23:47:58" ".profile" ".pip/" ".parallels_settings" ".parallels/" ".org.eclipse.epp.usagedata.recording.userId" ".nx/" ".mysql_history" ".m2/" ".lein/" ".itmstransporter/" ".gitconfig" ".gdb_history" ".fontconfig/" ".filezilla/" ".emacs.d/" ".dvdcss/" ".DS_Store" ".dropbox-master/" ".dropbox/" ".distlib/" ".cvspass" ".config/" ".cocoapods/" ".CFUserTextEncoding" ".cache/" ".bzr.log" ".bash_profile" ".bash_history" ".appcfg_nag" ".appcfg_cookies" ".adobe/" "../" "./")
+
+ ("/Users/jkshum/Dropbox/" (21383 12065 0 0) "Useful/" "Secured/" "Public/" "Project/" "ios/" "Icon
+" "Design/" "Course/" "clojure/" "Camera Uploads/" "Books/" "Blog/" "Backup/" "Articles/" "Apps/" "appengine/" ".emacs.desktop" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

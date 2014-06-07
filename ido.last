@@ -2,19 +2,37 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/sudo::/usr/local/lib/node_modules/" . "swank-js/")
+ ("/sudo::/usr/local/lib/" . "node_modules/")
+ ("/sudo::/usr/local/" . "lib/")
+ ("/sudo::/usr/" . "local/")
+ ("/sudo::/" . "usr/")
+ ("/usr/local/lib/node_modules/" . "swank-js/")
+ ("/usr/local/lib/" . "node_modules/")
+ ("/usr/" . "local/")
+ ("/Users/jkshum/.emacs.d/" . "slime/")
+ ("/Users/jkshum/.emacs.d/elpa/" . "slime-js-0.0.1/")
+ ("/Users/jkshum/Dropbox/ios/" . "MiniCam/")
  ("/Users/jkshum/Dropbox/appengine/" . "minialbum/")
  ("/Users/jkshum/Dropbox/" . "appengine/")
  ("/ssh:imtjks@119.9.88.32:/home/imtjks/" . "mongo_backup/")
  ("/Users/jkshum/Dropbox/cx/" . "node/")
  ("/Users/jkshum/Dropbox/appengine/minialbum/" . "Tests/")
- ("/Users/jkshum/" . "Dropbox/")
+ ("/Users/jkshum/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/sudo::/usr/local/lib/node_modules/swank-js/"
+ "/usr/local/lib/node_modules/swank-js/"
+ "/Users/jkshum/temp/testio/"
+ "/Users/jkshum/temp/"
+ "/Users/jkshum/.emacs.d/elpa/slime-js-0.0.1/"
+ "/Users/jkshum/.emacs.d/"
+ "/Users/jkshum/.emacs.d/slime/"
+ "/Users/jkshum/.emacs.d/elpa/slime-repl-20100404/"
  "/Users/jkshum/Dropbox/appengine/minialbum/"
  "/Users/jkshum/Dropbox/appengine/minialbum/Tests/"
- "/Users/jkshum/.emacs.d/"
  "/ssh:imtjks@119.9.88.32:/home/imtjks/mongo_backup/"
  "/ssh:imtjks@119.9.88.32:/var/log/"
  "/ssh:imtjks@119.9.88.32:/home/imtjks/"
@@ -24,36 +42,78 @@
 
 ;; ----- ido-work-file-list -----
 (
- "notes.org"
- "init.sh"
- "settings.py"
+ "swank.js"
+ "index.html"
+ "index.js"
+ "slime-js.el"
  "init.el"
+ "setup-slime-js.el"
  "handlers.py"
- "backup"
- "rest_test.py"
+ "notes.org"
  "main.py"
- "utils.py"
- "curl.org"
+ ".gitignore"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/jkshum/Dropbox/appengine/minialbum/Tests/" (21381 60973 0 0) "unit_test.py~" "unit_test.pyc" "unit_test.py" "rest_test.py~" "rest_test.pyc" "rest_test.py" "photo.png" "notes.org~" "minialbum_test.pyc" "init.sh~" "init.sh" "functional_test.pyc" "func_test.pyc" "curl.org~" "__init__.pyc" "__init__.py" ".DS_Store" "#init.sh#" "../" "./")
+ ("/sudo::/usr/local/lib/node_modules/swank-js/" (ftp . 389475.7708333333) "./" "../" ".npmignore" "client/" "completion-tests.js" "completion.js" "config.js" "doc/" "History.md" "LICENSE" "lisp-tests.js" "lisp.js" "node_modules/" "package.json" "README.md" "slime-js.el" "swank-handler-tests.js" "swank-handler.js" "swank-protocol-tests.js" "swank-protocol.js" "swank.js" "user-agent-tests.js" "user-agent.js")
 
- ("/Users/jkshum/Dropbox/appengine/minialbum/" (21385 55873 0 0) "utils.pyc" "utils.py" "Tests/" "settings.pyc" "settings.py" "pbkdf2.pyc" "pbkdf2.py" "notes.org~" "notes.org" "models.py~" "models.pyc" "models.py" "main.pyc" "main.py" "index.yaml" "handlers.py~" "handlers.pyc" "handlers.py" "error.pyc" "error.py" "doc.org~" "doc.org" "app.yaml" ".gitignore~" ".gitignore" ".git/" ".DS_Store" "#settings.py#" "#main.py#" "#doc.org#" "#.gitignore#" "../" "./")
+ ("/sudo::/usr/local/lib/node_modules/" (ftp . 389475.7702777778) "./" "../" ".bin/" "n/" "npm/" "socket.io/" "swank-js/")
 
- ("/Users/jkshum/.emacs.d/" (21384 35875 0 0) "init.el~" "init.el" "ido.last" "eshell/" "elpa/" "el-get/" "bookmarks" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" ".DS_Store" "../" "./")
+ ("/sudo::/usr/local/lib/" (ftp . 389475.76944444445) "./" "../" "_int.so" "adminpack.so" "ascii_and_mic.so" "auth_delay.so" "auto_explain.so" "autoinc.so" "btree_gin.so" "btree_gist.so" "chkpass.so" "citext.so" "clisp-2.49/" "cube.so" "cyrillic_and_mic.so" "dblink.so" "dict_int.so" "dict_snowball.so" "dict_xsyn.so" "dtrace/" "dummy_seclabel.so" "earthdistance.so" "euc2004_sjis2004.so" "euc_cn_and_mic.so" "euc_jp_and_sjis.so" "euc_kr_and_mic.so" "euc_tw_and_big5.so" "file_fdw.so" "fuzzystrmatch.so" "hstore.so" "insert_username.so" "isn.so" "latin2_and_win1250.so" "latin_and_mic.so" "libecpg.6.4.dylib" "libecpg.6.dylib" "libecpg.a" "libecpg.dylib" "libecpg_compat.3.4.dylib" "libecpg_compat.3.dylib" "libecpg_compat.a" "libecpg_compat.dylib" "libpgport.a" "libpgtypes.3.3.dylib" "libpgtypes.3.dylib" "libpgtypes.a" "libpgtypes.dylib" "libpq.5.5.dylib" "libpq.5.dylib" "libpq.a" "libpq.dylib" "libpqwalreceiver.so" "libsigsegv.2.dylib" "libsigsegv.a" "libsigsegv.dylib" "lo.so" "ltree.so" "moddatetime.so" "node_modules/" "pageinspect.so" "passwordcheck.so" "pg_buffercache.so" "pg_freespacemap.so" "pg_stat_statements.so" "pg_trgm.so" "pg_upgrade_support.so" "pgcrypto.so" "pgrowlocks.so" "pgstattuple.so" "pgxml.so" "pgxs/" "plperl.so" "plpgsql.so" "plpython2.so" "python2.7/" "refint.so" "sbcl/" "seg.so" "sslinfo.so" "tablefunc.so" "tcn.so" "test_parser.so" "timetravel.so" "tsearch2.so" "unaccent.so" "utf8_and_ascii.so" "utf8_and_big5.so" "utf8_and_cyrillic.so" "utf8_and_euc2004.so" "utf8_and_euc_cn.so" "utf8_and_euc_jp.so" "utf8_and_euc_kr.so" "utf8_and_euc_tw.so" "utf8_and_gb18030.so" "utf8_and_gbk.so" "utf8_and_iso8859.so" "utf8_and_iso8859_1.so" "utf8_and_johab.so" "utf8_and_sjis.so" "utf8_and_sjis2004.so" "utf8_and_uhc.so" "utf8_and_win.so" "uuid-ossp.so")
 
- ("/Users/jkshum/Dropbox/" (21384 31543 0 0) "Useful/" "Secured/" "Public/" "Project/" "ios/" "Icon
+ ("/sudo::/usr/local/Library/" (ftp . 389475.7683333333) "./" "../" "Aliases/" "brew.rb" "Contributions/" "ENV/" "Formula/" "Homebrew/" "LinkedKegs/")
+
+ ("/sudo::/usr/local/" (ftp . 389475.7675) "./" "../" ".DS_Store" ".git/" ".gitignore" "bin/" "Cellar/" "ChangeLog" "CONTRIBUTING.md" "etc/" "foreman/" "git/" "google_appengine" "google_appengine.old" "google_appengine.old.11663" "google_appengine.old.12488" "google_appengine.old.14671" "google_appengine.old.15665" "google_appengine.old.16429" "google_appengine.old.1744" "google_appengine.old.2112" "google_appengine.old.2408" "google_appengine.old.26998" "google_appengine.old.29025" "google_appengine.old.2931" "google_appengine.old.356" "google_appengine.old.40330" "google_appengine.old.4294" "google_appengine.old.4553" "google_appengine.old.479" "google_appengine.old.527" "google_appengine.old.53953" "google_appengine.old.5447" "google_appengine.old.55979" "google_appengine.old.5911" "google_appengine.old.809" "google_appengine.old.8288" "google_appengine.old.9178" "google_appengine_back" "include/" "lib/" "Library/" "LICENSE" "n/" "opt/" "README.md" "share/" "SUPPORTERS.md" "var/")
+
+ ("/sudo::/usr/" (ftp . 389475.76694444445) "./" "../" "bin/" "include/" "lib/" "libexec/" "llvm-gcc-4.2/" "local/" "sbin/" "share/" "standalone/" "X11/" "X11R6/")
+
+ ("/sudo::/" (ftp . 389475.7655555556) "./" "../" ".dbfseventsd" ".DocumentRevisions-V100/" ".DS_Store" ".file" ".fseventsd/" ".MobileBackups/" ".Spotlight-V100/" ".Trashes/" ".vol/" "Applications/" "bin/" "cores/" "dev/" "etc/" "home/" "Library/" "mach_kernel" "net/" "Network/" "opt/" "private/" "sbin/" "System/" "tmp/" "Users/" "usr/" "var/" "Volumes/")
+
+ ("/Users/jkshum/" (21394 35507 0 0) "wwdc/" "webapps/" "tutorial~" "tutorial" "tmp/" "themes/" "temp/" "SoapUI-Tutorials/" "site-lisp/" "quicklisp/" "Public/" "Pictures/" "node_modules/" "Music/" "Movies/" "line-log/" "Library/" "KonySampleApps/" "iPhone/" "InstallAnywhere/" "init.el~" "init.el" "IdeaProjects/" "hello-world/" "Google Drive/" "git/" "Fiddler2/" "elpa/" "el-get/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "cx/" "Course/" "code/" "clojure-1.5.1/" "Camera Uploads/" "Books/" "Blog/" "bin/" "Backup/" "auto-save-list/" "Articles/" "Apps/" "Applications (Parallels)/" "Applications/" "appengine-java-sdk/" "appengine/" "android-sdk/" "ac-comphist.dat" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".TemporaryItems/" ".swankjsrc" ".subversion/" ".ssh/" ".smex-items" ".slime-history.eld" ".slime/" ".sh_history" ".serverauth.8734" ".sbclrc" ".rnd" ".recentf~" ".recentf" ".putty/" ".psql_history" ".profile" ".pgpass" ".pgadmin_histoqueries" ".npm/" ".node-gyp/" ".netrc" ".mono/" ".mongorc.js" ".MacOSX/" ".m2/" ".lispworks-config/" ".lighttable/" ".lein/" ".kony/" ".keditor/" ".jline-reply.history" ".itmstransporter/" ".InstallAnywhere/" ".ido.last~" ".ido.last" ".heroku/" ".gitconfig" ".ghc/" ".gem/" ".gdb_history" ".fontconfig/" ".filezilla/" ".emacs~" ".emacs.swp" ".emacs.desktop.lock" ".emacs.desktop" ".emacs.d/" ".DS_Store" ".dropbox.cache/" ".dropbox-master/" ".dropbox/" ".DownloadManager/" ".distlib/" ".dbshell" ".cpan/" ".config/" ".cocoapods/" ".CFUserTextEncoding" ".cache/" ".bash_profile" ".bash_history" ".aws" ".atom/" ".appcfg_nag" ".appcfg_cookies" ".apdisk" ".#mynotes.org" "#mynotes.org#" "../" "./")
+
+ ("/usr/local/lib/node_modules/swank-js/" (21393 49315 0 0) "user-agent.js" "user-agent-tests.js" "swank.js" "swank-protocol.js" "swank-protocol-tests.js" "swank-handler.js" "swank-handler-tests.js" "slime-js.el" "README.md" "package.json" "node_modules/" "lisp.js" "lisp-tests.js" "LICENSE" "History.md" "doc/" "config.js" "completion.js" "completion-tests.js" "client/" ".npmignore" "../" "./")
+
+ ("/usr/local/lib/node_modules/" (21394 29359 0 0) "swank-js/" "socket.io/" "npm/" "n/" ".bin/" "../" "./")
+
+ ("/usr/local/lib/" (21097 15727 0 0) "uuid-ossp.so" "utf8_and_win.so" "utf8_and_uhc.so" "utf8_and_sjis2004.so" "utf8_and_sjis.so" "utf8_and_johab.so" "utf8_and_iso8859_1.so" "utf8_and_iso8859.so" "utf8_and_gbk.so" "utf8_and_gb18030.so" "utf8_and_euc_tw.so" "utf8_and_euc_kr.so" "utf8_and_euc_jp.so" "utf8_and_euc_cn.so" "utf8_and_euc2004.so" "utf8_and_cyrillic.so" "utf8_and_big5.so" "utf8_and_ascii.so" "unaccent.so" "tsearch2.so" "timetravel.so" "test_parser.so" "tcn.so" "tablefunc.so" "sslinfo.so" "seg.so" "sbcl/" "refint.so" "python2.7/" "plpython2.so" "plpgsql.so" "plperl.so" "pgxs/" "pgxml.so" "pgstattuple.so" "pgrowlocks.so" "pgcrypto.so" "pg_upgrade_support.so" "pg_trgm.so" "pg_stat_statements.so" "pg_freespacemap.so" "pg_buffercache.so" "passwordcheck.so" "pageinspect.so" "node_modules/" "moddatetime.so" "ltree.so" "lo.so" "libsigsegv.dylib" "libsigsegv.a" "libsigsegv.2.dylib" "libpqwalreceiver.so" "libpq.dylib" "libpq.a" "libpq.5.dylib" "libpq.5.5.dylib" "libpgtypes.dylib" "libpgtypes.a" "libpgtypes.3.dylib" "libpgtypes.3.3.dylib" "libpgport.a" "libecpg_compat.dylib" "libecpg_compat.a" "libecpg_compat.3.dylib" "libecpg_compat.3.4.dylib" "libecpg.dylib" "libecpg.a" "libecpg.6.dylib" "libecpg.6.4.dylib" "latin_and_mic.so" "latin2_and_win1250.so" "isn.so" "insert_username.so" "hstore.so" "fuzzystrmatch.so" "file_fdw.so" "euc_tw_and_big5.so" "euc_kr_and_mic.so" "euc_jp_and_sjis.so" "euc_cn_and_mic.so" "euc2004_sjis2004.so" "earthdistance.so" "dummy_seclabel.so" "dtrace/" "dict_xsyn.so" "dict_snowball.so" "dict_int.so" "dblink.so" "cyrillic_and_mic.so" "cube.so" "clisp-2.49/" "citext.so" "chkpass.so" "btree_gist.so" "btree_gin.so" "autoinc.so" "auto_explain.so" "auth_delay.so" "ascii_and_mic.so" "adminpack.so" "_int.so" "../" "./")
+
+ ("/usr/local/" (21394 29006 0 0) "var/" "SUPPORTERS.md" "share/" "README.md" "opt/" "n/" "LICENSE" "Library/" "lib/" "include/" "google_appengine_back" "google_appengine.old.9178" "google_appengine.old.8288" "google_appengine.old.809" "google_appengine.old.5911" "google_appengine.old.55979" "google_appengine.old.5447" "google_appengine.old.53953" "google_appengine.old.527" "google_appengine.old.479" "google_appengine.old.4553" "google_appengine.old.4294" "google_appengine.old.40330" "google_appengine.old.356" "google_appengine.old.2931" "google_appengine.old.29025" "google_appengine.old.26998" "google_appengine.old.2408" "google_appengine.old.2112" "google_appengine.old.1744" "google_appengine.old.16429" "google_appengine.old.15665" "google_appengine.old.14671" "google_appengine.old.12488" "google_appengine.old.11663" "google_appengine.old" "google_appengine" "git/" "foreman/" "etc/" "CONTRIBUTING.md" "ChangeLog" "Cellar/" "bin/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/usr/" (21247 6633 0 0) "X11R6/" "X11/" "standalone/" "share/" "sbin/" "local/" "llvm-gcc-4.2/" "libexec/" "lib/" "include/" "bin/" "../" "./")
+
+ ("/Users/jkshum/temp/testio/" (21394 33272 0 0) "index.js~" "index.js" "index.html~" "index.html" "../" "./")
+
+ ("/Users/jkshum/temp/" (21394 32950 0 0) "testio/" "swank-js/" "node_modules/" "../" "./")
+
+ ("/Users/jkshum/.emacs.d/" (21394 24375 0 0) "url/" "slime/" "init.el~" "init.el" "ido.last~" "ido.last" "eshell/" "elpa/" "el-get/" "bookmarks" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" ".DS_Store" "../" "./")
+
+ ("/Users/jkshum/.emacs.d/elpa/slime-js-0.0.1/" (21394 22950 0 0) "slime-js.el" "slime-js-pkg.elc" "slime-js-pkg.el" "slime-js-autoloads.el~" "slime-js-autoloads.el" "../" "./")
+
+ ("/Users/jkshum/.emacs.d/elpa/slime-repl-20100404/" (21393 56471 0 0) "slime-repl.el" "slime-repl-pkg.elc" "slime-repl-pkg.el" "slime-repl-autoloads.el~" "slime-repl-autoloads.el" "../" "./")
+
+ ("/Users/jkshum/.emacs.d/slime/" (21393 56491 0 0) "xref.lisp" "swank.lisp" "swank.asd" "swank-source-path-parser.lisp" "swank-source-file-cache.lisp" "swank-scl.lisp" "swank-sbcl.lisp" "swank-rpc.lisp" "swank-match.lisp" "swank-loader.lisp" "swank-lispworks.lisp" "swank-gray.lisp" "swank-ecl.lisp" "swank-corman.lisp" "swank-cmucl.lisp" "swank-clisp.lisp" "swank-ccl.lisp" "swank-backend.lisp" "swank-allegro.lisp" "swank-abcl.lisp" "start-swank.lisp" "slime.el" "slime-tests.el" "slime-autoloads.el" "sbcl-pprint-patch.lisp" "README.md" "PROBLEMS" "nregex.lisp" "npm-debug.log" "node_modules/" "NEWS" "metering.lisp" "Makefile" "lib/" "doc/" "CONTRIBUTING.md" "contrib/" "ChangeLog" ".travis.yml" ".gitref" ".gitignore" ".gitattributes" ".git/" "../" "./")
+
+ ("/Users/jkshum/.emacs.d/elpa/" (21393 54175 0 0) "zenburn-theme-20140605.1415/" "zenburn-1.8/" "yasnippet-20140514.1649/" "solarized-theme-20140520.354/" "slime-repl-20100404/" "slime-js-0.0.1/" "slime-20140601.1432/" "s-20131223.944/" "pkg-info-20140405.50/" "paredit-20140128.1248/" "multiple-cursors-20140527.359/" "js2-refactor-20140427.428/" "js2-mode-20140603.1818/" "js-comint-20080530.757/" "idomenu-20111122.1048/" "f-20140220.21/" "exec-path-from-shell-20140219.104/" "epl-20140405.51/" "dash-20140604.905/" "color-theme-sanityinc-tomorrow-20140517.17/" "color-theme-sanityinc-solarized-20140517.18/" "archives/" "ace-jump-mode-2.0.0.0/" "ac-slime-20131005.326/" "../" "./")
+
+ ("/Users/jkshum/.emacs.d/elpa/exec-path-from-shell-1.7/" (21393 49562 0 0) "exec-path-from-shell.elc" "exec-path-from-shell.el" "exec-path-from-shell-pkg.elc" "exec-path-from-shell-pkg.el" "exec-path-from-shell-autoloads.el~" "exec-path-from-shell-autoloads.el" "../" "./")
+
+ ("/Users/jkshum/Dropbox/appengine/minialbum/" (21392 36735 0 0) "utils.pyc" "utils.py" "Tests/" "settings.pyc" "settings.py" "pbkdf2.pyc" "pbkdf2.py" "notes.org~" "notes.org" "models.py~" "models.pyc" "models.py" "main.pyc" "main.py" "index.yaml" "handlers.py~" "handlers.pyc" "handlers.py" "error.pyc" "error.py" "doc.org~" "doc.org" "app.yaml" ".gitignore~" ".gitignore" ".git/" ".DS_Store" "#settings.py#" "#main.py#" "#doc.org#" "#.gitignore#" "../" "./")
+
+ ("/Users/jkshum/Dropbox/ios/MiniCam/" (21369 64222 0 0) "specta/" "MiniCamTests/" "MiniCam.xcodeproj/" "MiniCam/" "extobjc/" "external/" "expecta/" ".gitmodules" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/jkshum/Dropbox/ios/" (21381 62842 0 0) "WeatherAlarm/" "MiniCam/" ".DS_Store" "../" "./")
+
+ ("/Users/jkshum/Dropbox/" (21389 53985 0 0) "Useful/" "Secured/" "Public/" "Project/" "ios/" "Icon
 " "Design/" "cx/" "Course/" "clojure/" "Camera Uploads/" "Books/" "Blog/" "Backup/" "Articles/" "Apps/" "appengine/" ".emacs.desktop" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
 
- ("/Users/jkshum/" (21381 53450 0 0) "wwdc/" "webapps/" "tutorial~" "tutorial" "themes/" "SoapUI-Tutorials/" "site-lisp/" "quicklisp/" "Public/" "Pictures/" "Music/" "Movies/" "line-log/" "Library/" "KonySampleApps/" "iPhone/" "InstallAnywhere/" "init.el~" "init.el" "IdeaProjects/" "hello-world/" "Google Drive/" "git/" "Fiddler2/" "elpa/" "el-get/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "cx/" "Course/" "code/" "clojure-1.5.1/" "Camera Uploads/" "Books/" "Blog/" "bin/" "Backup/" "auto-save-list/" "Articles/" "Apps/" "Applications (Parallels)/" "Applications/" "appengine-java-sdk/" "appengine/" "android-sdk/" "ac-comphist.dat" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".TemporaryItems/" ".subversion/" ".ssh/" ".smex-items" ".slime-history.eld" ".slime/" ".sh_history" ".serverauth.8734" ".sbclrc" ".rnd" ".recentf~" ".recentf" ".putty/" ".psql_history" ".profile" ".pgpass" ".pgadmin_histoqueries" ".npm/" ".netrc" ".mono/" ".mongorc.js" ".MacOSX/" ".m2/" ".lispworks-config/" ".lighttable/" ".lein/" ".kony/" ".keditor/" ".jline-reply.history" ".itmstransporter/" ".InstallAnywhere/" ".ido.last~" ".ido.last" ".heroku/" ".gitconfig" ".ghc/" ".gem/" ".gdb_history" ".fontconfig/" ".filezilla/" ".emacs~" ".emacs.swp" ".emacs.desktop.lock" ".emacs.desktop" ".emacs.d/" ".DS_Store" ".dropbox.cache/" ".dropbox-master/" ".dropbox/" ".DownloadManager/" ".distlib/" ".dbshell" ".cpan/" ".config/" ".cocoapods/" ".CFUserTextEncoding" ".cache/" ".bash_profile" ".bash_history" ".aws" ".atom/" ".appcfg_nag" ".appcfg_cookies" ".apdisk" ".#mynotes.org" "#mynotes.org#" "../" "./")
+ ("/Users/jkshum/Dropbox/cx/" (21384 33083 0 0) "notes.org" "kony/" "java/" ".DS_Store" "../" "./")
+
+ ("/Users/jkshum/Dropbox/appengine/minialbum/Tests/" (21381 60973 0 0) "unit_test.py~" "unit_test.pyc" "unit_test.py" "rest_test.py~" "rest_test.pyc" "rest_test.py" "photo.png" "notes.org~" "minialbum_test.pyc" "init.sh~" "init.sh" "functional_test.pyc" "func_test.pyc" "curl.org~" "__init__.pyc" "__init__.py" ".DS_Store" "#init.sh#" "../" "./")
 
  ("/Users/" (21224 65043 0 0) "timmyng425/" "Shared/" "jkshum/" "Guest/" ".localized" "../" "./")
 
  ("/Users/jkshum/Dropbox/cx/node/" (21068 8531 0 0) "../" "./")
-
- ("/Users/jkshum/Dropbox/cx/" (21380 35347 0 0) "ServiceMatrix.keystore" "service-matrix-admin/" "service-matrix/" "poc/" "notes.org~" "notes.org" "node/" "navigation/" "LoungeCheckin/" "linux.org~" "linux.org" "kony/" "java/" "IOSFFI/" "ios/" "InnoUtils/" "InnoLib/" "ijourneylite-service/" "ijourneylite/" "ide.lic" "ICEOpenJawPOC/" "ICELoginPOC/" "ICE-mobile/" "ICE/" "ibeaconnavigation/" "FFI/" "epil-mobile/" "cxstats/" "certs/" "BestBuy/" "backup/" "Archive/" "apps backup/" "airports.dat" ".home/" ".DS_Store" ".#notes.org" "#notes.org#" "#linux.org#" "../" "./")
 
  ("/Users/jkshum/Dropbox/appengine/" (21367 22020 0 0) "queuepass_web/" "minialbum/" ".DS_Store" "../" "./")
 

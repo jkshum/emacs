@@ -18,8 +18,7 @@
 
 ; list the repositories containing them
 
-(setq package-archives '(("elpa" . "http://tromey.com/elpa/")
-                         ("gnu" . "http://elpa.gnu.org/packages/")
+(setq package-archives '(("melpa" . "http://melpa.milkbox.net/packages/")
                          ("marmalade" . "http://marmalade-repo.org/packages/")))
 ; activate all the packages (in particular autoloads)
 (package-initialize)
@@ -103,24 +102,25 @@
 
 ;js repl
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
-(setq inferior-js-program-command "/usr/local/bin/node")
-(setq inferior-js2-mode-hook
-      (lambda ()
-        ;; We like nice colors
-        (ansi-color-for-comint-mode-on)
-        ;; Deal wi
-	th some prompt nonsense
-        (add-to-list
-         'comint-preoutput-filter-functions
-         (lambda (output)
-           (replace-regexp-in-string "\033\\[[0-9]+[GK]" "" output)))))
+;; (setq inferior-js-program-command "/usr/local/bin/node")
+;; (setq inferior-js2-mode-hook
+;;       (lambda ()
+;;         ;; We like nice colors
+;;         (ansi-color-for-comint-mode-on)
+;;         ;; Deal wi
+;; 	th some prompt nonsense
+;;         (add-to-list
+;;          'comint-preoutput-filter-functions
+;;          (lambda (output)
+;;            (replace-regexp-in-string "\033\\[[0-9]+[GK]" "" output)))))
 
-(add-hook 'js2-mode-hook '(lambda () 
-			    (local-set-key "\C-x\C-e" 'js-send-last-sexp)
-			    (local-set-key "\C-\M-x" 'js-send-last-sexp-and-go)
-			    (local-set-key "\C-cb" 'js-send-buffer)
-			    (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
-			    (local-set-key "\C-c\C-l" 'js-load-file-and-go)
+(add-hook 'js2-mode-hook '(lambda ()
+			    (slime-js-minor-mode 1)
+ 			    ;; (local-set-key "\C-x\C-e" 'js-send-last-sexp)
+			    ;; (local-set-key "\C-\M-x" 'js-send-last-sexp-and-go)
+			    ;; (local-set-key "\C-cb" 'js-send-buffer)
+			    ;; (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
+			    ;; (local-set-key "\C-c\C-l" 'js-load-file-and-go)
 			    ))
 (eval-after-load 'paredit
   '(progn
@@ -152,7 +152,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("dd4db38519d2ad7eb9e2f30bc03fba61a7af49a185edfd44e020aa5345e3dca7" default))))
+    ("b1471d88b39cad028bd621ae7ae1e8e3e3fca2c973f0dfe3fd6658c194a542ff" "dd4db38519d2ad7eb9e2f30bc03fba61a7af49a185edfd44e020aa5345e3dca7" default))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

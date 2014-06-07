@@ -19,3 +19,14 @@ el-get
 *#
 ido.last
 recentf
+*.desktop
+
+*.dat
+
+*.last
+
+recentf
+
+*.el
+
+*.last

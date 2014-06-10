@@ -1,5 +1,7 @@
 ;(setq debug-on-error t)
 (setenv "PATH" "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/usr/local/share/npm/bin:~/android-sdk/tools:~/android-sdk/platform-tools")
+;(load (expand-file-name "~/quicklisp/slime-helper.el"))
+;(setq inferior-lisp-program "/usr/local/bin/sbcl")
 
 (setq package-list  '(zenburn-theme
                       ace-jump-mode
@@ -14,11 +16,13 @@
 		      cider
 		      idomenu
 		      company
+		      elm-mode
                       ))
 
 ; list the repositories containing them
 
-(setq package-archives '(("elpa" . "http://tromey.com/elpa/")
+(setq package-archives '(("melpa" . "http://melpa.milkbox.net/packages/")
+			 ("elpa" . "http://tromey.com/elpa/")
                          ("gnu" . "http://elpa.gnu.org/packages/")
                          ("marmalade" . "http://marmalade-repo.org/packages/")))
 ; activate all the packages (in particular autoloads)
@@ -103,7 +107,7 @@
 
 ;js repl
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
-(setq inferior-js-program-command "/usr/local/bin/node")
+;(setq inferior-js-program-command "/usr/local/bin/node")
 (setq inferior-js2-mode-hook
       (lambda ()
         ;; We like nice colors
@@ -114,6 +118,11 @@
          'comint-preoutput-filter-functions
          (lambda (output)
            (replace-regexp-in-string "\033\\[[0-9]+[GK]" "" output)))))
+
+(add-hook 'js2-mode-hook
+          (lambda ()
+            (slime-js-minor-mode 1)))
+;(load-file "~/.emacs.d/setup-slime-js.el")
 
 (add-hook 'js2-mode-hook '(lambda () 
 			    (local-set-key "\C-x\C-e" 'js-send-last-sexp)
@@ -136,8 +145,6 @@
 (setq yas-snippet-dirs
       '("~/.emacs.d/el-get/yasnippet/snippets"))
 
-(load (expand-file-name "~/quicklisp/slime-helper.el"))
-(setq inferior-lisp-program "/usr/local/bin/sbcl")
 
 (defun beautify-json ()
   (interactive)
@@ -145,6 +152,7 @@
         (e (if mark-active (max (point) (mark)) (point-max))))
     (shell-command-on-region b e
      "python -mjson.tool" (current-buffer) t)))
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -152,7 +160,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("dd4db38519d2ad7eb9e2f30bc03fba61a7af49a185edfd44e020aa5345e3dca7" default))))
+    ("4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" "b1471d88b39cad028bd621ae7ae1e8e3e3fca2c973f0dfe3fd6658c194a542ff" default))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

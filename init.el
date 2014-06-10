@@ -22,8 +22,6 @@
 ; list the repositories containing them
 
 (setq package-archives '(("melpa" . "http://melpa.milkbox.net/packages/")
-			 ("elpa" . "http://tromey.com/elpa/")
-                         ("gnu" . "http://elpa.gnu.org/packages/")
                          ("marmalade" . "http://marmalade-repo.org/packages/")))
 ; activate all the packages (in particular autoloads)
 (package-initialize)
@@ -107,29 +105,26 @@
 
 ;js repl
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
-;(setq inferior-js-program-command "/usr/local/bin/node")
-(setq inferior-js2-mode-hook
-      (lambda ()
-        ;; We like nice colors
-        (ansi-color-for-comint-mode-on)
-        ;; Deal wi
-	th some prompt nonsense
-        (add-to-list
-         'comint-preoutput-filter-functions
-         (lambda (output)
-           (replace-regexp-in-string "\033\\[[0-9]+[GK]" "" output)))))
 
-(add-hook 'js2-mode-hook
-          (lambda ()
-            (slime-js-minor-mode 1)))
-;(load-file "~/.emacs.d/setup-slime-js.el")
+;; (setq inferior-js-program-command "/usr/local/bin/node")
+;; (setq inferior-js2-mode-hook
+;;       (lambda ()
+;;         ;; We like nice colors
+;;         (ansi-color-for-comint-mode-on)
+;;         ;; Deal wi
+;; 	th some prompt nonsense
+;;         (add-to-list
+;;          'comint-preoutput-filter-functions
+;;          (lambda (output)
+;;            (replace-regexp-in-string "\033\\[[0-9]+[GK]" "" output)))))
 
-(add-hook 'js2-mode-hook '(lambda () 
-			    (local-set-key "\C-x\C-e" 'js-send-last-sexp)
-			    (local-set-key "\C-\M-x" 'js-send-last-sexp-and-go)
-			    (local-set-key "\C-cb" 'js-send-buffer)
-			    (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
-			    (local-set-key "\C-c\C-l" 'js-load-file-and-go)
+(add-hook 'js2-mode-hook '(lambda ()
+			    (slime-js-minor-mode 1)
+ 			    ;; (local-set-key "\C-x\C-e" 'js-send-last-sexp)
+			    ;; (local-set-key "\C-\M-x" 'js-send-last-sexp-and-go)
+			    ;; (local-set-key "\C-cb" 'js-send-buffer)
+			    ;; (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
+			    ;; (local-set-key "\C-c\C-l" 'js-load-file-and-go)
 			    ))
 (eval-after-load 'paredit
   '(progn
@@ -153,17 +148,3 @@
     (shell-command-on-region b e
      "python -mjson.tool" (current-buffer) t)))
 
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-safe-themes
-   (quote
-    ("4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" "b1471d88b39cad028bd621ae7ae1e8e3e3fca2c973f0dfe3fd6658c194a542ff" default))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )

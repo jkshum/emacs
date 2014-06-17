@@ -30,3 +30,11 @@ recentf
 *.el
 
 *.last
+
+.emacs.desktop
+
+.emacs.desktop.lock
+
+ac-comphist.dat
+
+bookmarks

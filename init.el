@@ -42,6 +42,17 @@
 (tool-bar-mode -1) 
 (scroll-bar-mode -1)
 
+					;backup settings
+(setq backup-directory-alist `(("." . "~/.emacs.d/.saves")))
+(setq backup-by-copying t)
+(setq delete-old-versions t
+  kept-new-versions 6
+  kept-old-versions 2
+  version-control t)
+
+(setq dired-dwim-target t)
+
+
 ;key bindings
 (setq mac-command-modifier 'meta) ; sets the Command key to Meta
 (global-set-key (kbd "M-`") 'other-frame)
@@ -106,25 +117,24 @@
 ;js repl
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
 
-;; (setq inferior-js-program-command "/usr/local/bin/node")
-;; (setq inferior-js2-mode-hook
-;;       (lambda ()
-;;         ;; We like nice colors
-;;         (ansi-color-for-comint-mode-on)
-;;         ;; Deal wi
-;; 	th some prompt nonsense
-;;         (add-to-list
-;;          'comint-preoutput-filter-functions
-;;          (lambda (output)
-;;            (replace-regexp-in-string "\033\\[[0-9]+[GK]" "" output)))))
+(setq inferior-js-program-command "/usr/local/bin/node")
+(setq inferior-js2-mode-hook
+      (lambda ()
+        ;; We like nice colors
+        (ansi-color-for-comint-mode-on)
+        ;; Deal wi
+	th some prompt nonsense
+        (add-to-list
+         'comint-preoutput-filter-functions
+         (lambda (output)
+           (replace-regexp-in-string "\033\\[[0-9]+[GK]" "" output)))))
 
 (add-hook 'js2-mode-hook '(lambda ()
-			    (slime-js-minor-mode 1)
- 			    ;; (local-set-key "\C-x\C-e" 'js-send-last-sexp)
-			    ;; (local-set-key "\C-\M-x" 'js-send-last-sexp-and-go)
-			    ;; (local-set-key "\C-cb" 'js-send-buffer)
-			    ;; (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
-			    ;; (local-set-key "\C-c\C-l" 'js-load-file-and-go)
+ 			    (local-set-key "\C-x\C-e" 'js-send-last-sexp)
+			    (local-set-key "\C-\M-x" 'js-send-last-sexp-and-go)
+			    (local-set-key "\C-cb" 'js-send-buffer)
+			    (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
+			    (local-set-key "\C-c\C-l" 'js-load-file-and-go)
 			    ))
 (eval-after-load 'paredit
   '(progn

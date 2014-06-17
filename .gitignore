@@ -30,3 +30,15 @@ recentf
 *.el
 
 *.last
+
+.emacs.desktop
+
+*.lock
+
+ido.last
+
+init.el
+
+.emacs.desktop.lock
+
+slime/

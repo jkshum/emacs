@@ -33,8 +33,32 @@ recentf
 
 .emacs.desktop
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+*.lock
+
+ido.last
+
+init.el
+
+.emacs.desktop.lock
+
+slime/
+=======
+>>>>>>> FETCH_HEAD
 .emacs.desktop.lock
 
 ac-comphist.dat
 
 bookmarks
+<<<<<<< HEAD
+=======
+
+eshell/history
+
+eshell/lastdir
+
+ido.last
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD

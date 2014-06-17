@@ -106,6 +106,13 @@
     (message "Aborting")))
 
 ;auto save desktop session
+(setq desktop-dirname             "~/.emacs.d/"
+      desktop-base-file-name      "emacs.desktop"
+      desktop-base-lock-name      "lock"
+      desktop-path                (list desktop-dirname)
+      desktop-save                t
+      desktop-files-not-to-save   "^$" ;reload tramp paths
+      desktop-load-locked-desktop nil)
 (desktop-save-mode 1)
 
 ;python
@@ -158,3 +165,21 @@
     (shell-command-on-region b e
      "python -mjson.tool" (current-buffer) t)))
 
+(defun save-all ()
+    (interactive)
+    (save-some-buffers t))
+(add-hook 'focus-out-hook 'save-all)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "146d24de1bb61ddfa64062c29b5ff57065552a7c4019bee5d869e938782dfc2a" default))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

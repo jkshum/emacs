@@ -17,6 +17,8 @@
 		      idomenu
 		      company
 		      elm-mode
+		      rainbow-mode
+		      skewer-mode
                       ))
 
 ; list the repositories containing them

@@ -1,7 +1,5 @@
 ;(setq debug-on-error t)
 (setenv "PATH" "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/usr/local/share/npm/bin:~/android-sdk/tools:~/android-sdk/platform-tools")
-;(load (expand-file-name "~/quicklisp/slime-helper.el"))
-;(setq inferior-lisp-program "/usr/local/bin/sbcl")
 
 (setq package-list  '(zenburn-theme
                       ace-jump-mode
@@ -16,9 +14,12 @@
 		      cider
 		      idomenu
 		      company
+<<<<<<< HEAD
 		      elm-mode
 		      rainbow-mode
 		      skewer-mode
+=======
+>>>>>>> FETCH_HEAD
                       ))
 
 ; list the repositories containing them
@@ -44,17 +45,6 @@
 (menu-bar-mode -1) 
 (tool-bar-mode -1) 
 (scroll-bar-mode -1)
-
-					;backup settings
-(setq backup-directory-alist `(("." . "~/.emacs.d/.saves")))
-(setq backup-by-copying t)
-(setq delete-old-versions t
-  kept-new-versions 6
-  kept-old-versions 2
-  version-control t)
-
-(setq dired-dwim-target t)
-
 
 ;key bindings
 (setq mac-command-modifier 'meta) ; sets the Command key to Meta
@@ -109,13 +99,6 @@
     (message "Aborting")))
 
 ;auto save desktop session
-(setq desktop-dirname             "~/.emacs.d/"
-      desktop-base-file-name      "emacs.desktop"
-      desktop-base-lock-name      "lock"
-      desktop-path                (list desktop-dirname)
-      desktop-save                t
-      desktop-files-not-to-save   "^$" ;reload tramp paths
-      desktop-load-locked-desktop nil)
 (desktop-save-mode 1)
 
 ;python
@@ -126,25 +109,25 @@
 
 ;js repl
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
-
-(setq inferior-js-program-command "/usr/local/bin/node")
-(setq inferior-js2-mode-hook
-      (lambda ()
-        ;; We like nice colors
-        (ansi-color-for-comint-mode-on)
-        ;; Deal wi
-	th some prompt nonsense
-        (add-to-list
-         'comint-preoutput-filter-functions
-         (lambda (output)
-           (replace-regexp-in-string "\033\\[[0-9]+[GK]" "" output)))))
+;; (setq inferior-js-program-command "/usr/local/bin/node")
+;; (setq inferior-js2-mode-hook
+;;       (lambda ()
+;;         ;; We like nice colors
+;;         (ansi-color-for-comint-mode-on)
+;;         ;; Deal wi
+;; 	th some prompt nonsense
+;;         (add-to-list
+;;          'comint-preoutput-filter-functions
+;;          (lambda (output)
+;;            (replace-regexp-in-string "\033\\[[0-9]+[GK]" "" output)))))
 
 (add-hook 'js2-mode-hook '(lambda ()
- 			    (local-set-key "\C-x\C-e" 'js-send-last-sexp)
-			    (local-set-key "\C-\M-x" 'js-send-last-sexp-and-go)
-			    (local-set-key "\C-cb" 'js-send-buffer)
-			    (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
-			    (local-set-key "\C-c\C-l" 'js-load-file-and-go)
+			    (slime-js-minor-mode 1)
+ 			    ;; (local-set-key "\C-x\C-e" 'js-send-last-sexp)
+			    ;; (local-set-key "\C-\M-x" 'js-send-last-sexp-and-go)
+			    ;; (local-set-key "\C-cb" 'js-send-buffer)
+			    ;; (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
+			    ;; (local-set-key "\C-c\C-l" 'js-load-file-and-go)
 			    ))
 (add-hook 'js2-mode-hook 'skewer-mode)
 (add-hook 'css-mode-hook 'skewer-css-mode)
@@ -165,6 +148,8 @@
 (setq yas-snippet-dirs
       '("~/.emacs.d/el-get/yasnippet/snippets"))
 
+(load (expand-file-name "~/quicklisp/slime-helper.el"))
+(setq inferior-lisp-program "/usr/local/bin/sbcl")
 
 (defun beautify-json ()
   (interactive)
@@ -172,11 +157,6 @@
         (e (if mark-active (max (point) (mark)) (point-max))))
     (shell-command-on-region b e
      "python -mjson.tool" (current-buffer) t)))
-
-(defun save-all ()
-    (interactive)
-    (save-some-buffers t))
-(add-hook 'focus-out-hook 'save-all)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -184,7 +164,11 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
+<<<<<<< HEAD
     ("d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "e16a771a13a202ee6e276d06098bc77f008b73bbac4d526f160faa2d76c1dd0e" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "146d24de1bb61ddfa64062c29b5ff57065552a7c4019bee5d869e938782dfc2a" default))))
+=======
+    ("4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" "146d24de1bb61ddfa64062c29b5ff57065552a7c4019bee5d869e938782dfc2a" "1e7e097ec8cb1f8c3a912d7e1e0331caeed49fef6cff220be63bd2a6ba4cc365" "e16a771a13a202ee6e276d06098bc77f008b73bbac4d526f160faa2d76c1dd0e" "4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "b1471d88b39cad028bd621ae7ae1e8e3e3fca2c973f0dfe3fd6658c194a542ff" "dd4db38519d2ad7eb9e2f30bc03fba61a7af49a185edfd44e020aa5345e3dca7" default))))
+>>>>>>> FETCH_HEAD
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

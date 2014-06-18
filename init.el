@@ -22,6 +22,7 @@
 ; list the repositories containing them
 
 (setq package-archives '(("melpa" . "http://melpa.milkbox.net/packages/")
+			 ("ELPA" . "http://elpa.gnu.org/packages")
                          ("marmalade" . "http://marmalade-repo.org/packages/")))
 ; activate all the packages (in particular autoloads)
 (package-initialize)
@@ -143,6 +144,11 @@
 			    (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
 			    (local-set-key "\C-c\C-l" 'js-load-file-and-go)
 			    ))
+(add-hook 'js2-mode-hook 'skewer-mode)
+(add-hook 'css-mode-hook 'skewer-css-mode)
+(add-hook 'html-mode-hook 'skewer-html-mode)
+(add-hook 'css-mode-hook 'rainbow-mode)
+
 (eval-after-load 'paredit
   '(progn
      (define-key paredit-mode-map (kbd "M-s") nil)))
@@ -176,7 +182,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "146d24de1bb61ddfa64062c29b5ff57065552a7c4019bee5d869e938782dfc2a" default))))
+    ("d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "e16a771a13a202ee6e276d06098bc77f008b73bbac4d526f160faa2d76c1dd0e" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "146d24de1bb61ddfa64062c29b5ff57065552a7c4019bee5d869e938782dfc2a" default))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

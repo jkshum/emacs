@@ -14,12 +14,9 @@
 		      cider
 		      idomenu
 		      company
-<<<<<<< HEAD
 		      elm-mode
 		      rainbow-mode
 		      skewer-mode
-=======
->>>>>>> FETCH_HEAD
                       ))
 
 ; list the repositories containing them
@@ -139,6 +136,11 @@
   '(progn
      (define-key paredit-mode-map (kbd "M-s") nil)))
 (setenv "NODE_NO_READLINE" "1")
+
+(setq backup-directory-alist
+      `((".*" . ,temporary-file-directory)))
+(setq auto-save-file-name-transforms
+      `((".*" ,temporary-file-directory t)))
 
 ;(add-hook 'after-init-hook 'global-company-mode)
 

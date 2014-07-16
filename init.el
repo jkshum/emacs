@@ -1,5 +1,6 @@
 ;(setq debug-on-error t)
 (setenv "PATH" "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/usr/local/share/npm/bin:~/android-sdk/tools:~/android-sdk/platform-tools")
+(setq exec-path (append exec-path '("/usr/local/bin" "/opt/local/bin")))
 
 (setq package-list  '(zenburn-theme
                       ace-jump-mode
@@ -107,26 +108,31 @@
 
 ;js repl
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
-;; (setq inferior-js-program-command "/usr/local/bin/node")
-;; (setq inferior-js2-mode-hook
-;;       (lambda ()
-;;         ;; We like nice colors
-;;         (ansi-color-for-comint-mode-on)
-;;         ;; Deal wi
-;; 	th some prompt nonsense
-;;         (add-to-list
-;;          'comint-preoutput-filter-functions
-;;          (lambda (output)
-;;            (replace-regexp-in-string "\033\\[[0-9]+[GK]" "" output)))))
+(setq inferior-js-program-command "/usr/local/bin/node")
+(setq inferior-js2-mode-hook
+      (lambda ()
+        ;; We like nice colors
+        (ansi-color-for-comint-mode-on)
+        ;; Deal wi
+	th some prompt nonsense
+        (add-to-list
+         'comint-preoutput-filter-functions
+         (lambda (output)
+           (replace-regexp-in-string "\033\\[[0-9]+[GK]" "" output)))))
 
 (add-hook 'js2-mode-hook '(lambda ()
-			    (slime-js-minor-mode 1)
- 			    ;; (local-set-key "\C-x\C-e" 'js-send-last-sexp)
-			    ;; (local-set-key "\C-\M-x" 'js-send-last-sexp-and-go)
-			    ;; (local-set-key "\C-cb" 'js-send-buffer)
-			    ;; (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
-			    ;; (local-set-key "\C-c\C-l" 'js-load-file-and-go)
+			    (tern-mode t)
+ 			    (local-set-key "\C-x\C-e" 'js-send-last-sexp)
+			    (local-set-key "\C-\M-x" 'js-send-last-sexp-and-go)
+			    (local-set-key "\C-cb" 'js-send-buffer)
+			    (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
+			    (local-set-key "\C-c\C-l" 'js-load-file-and-go)
 			    ))
+(eval-after-load 'tern
+   '(progn
+      (require 'tern-auto-complete)
+      (tern-ac-setup)))
+
 (add-hook 'js2-mode-hook 'skewer-mode)
 (add-hook 'css-mode-hook 'skewer-css-mode)
 (add-hook 'html-mode-hook 'skewer-html-mode)

@@ -1,5 +1,5 @@
 ;(setq debug-on-error t)
-(setenv "PATH" "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/usr/local/share/npm/bin:~/android-sdk/tools:~/android-sdk/platform-tools")
+(setenv "PATH" "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/usr/local/share/npm/bin:~/android-sdk/tools:~/android-sdk/platform-tools:~/Library/Haskell/bin:")
 (setq exec-path (append exec-path '("/usr/local/bin" "/opt/local/bin")))
 
 (setq package-list  '(zenburn-theme

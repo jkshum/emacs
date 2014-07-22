@@ -138,6 +138,13 @@
 (add-hook 'html-mode-hook 'skewer-html-mode)
 (add-hook 'css-mode-hook 'rainbow-mode)
 
+
+
+(add-hook 'haskell-mode-hook 'turn-on-haskell-doc-mode)
+(add-hook 'haskell-mode-hook 'turn-on-haskell-indentation)
+(add-to-list 'completion-ignored-extensions ".hi")
+( add-hook 'haskell-mode-hook 'interactive-haskell-mode)
+
 (eval-after-load 'paredit
   '(progn
      (define-key paredit-mode-map (kbd "M-s") nil)))

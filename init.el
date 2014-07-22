@@ -140,10 +140,6 @@
 
 
 
-(add-hook 'haskell-mode-hook 'turn-on-haskell-doc-mode)
-(add-hook 'haskell-mode-hook 'turn-on-haskell-indentation)
-(add-to-list 'completion-ignored-extensions ".hi")
-( add-hook 'haskell-mode-hook 'interactive-haskell-mode)
 
 (eval-after-load 'paredit
   '(progn
@@ -169,6 +165,9 @@
 
 (add-hook 'haskell-mode-hook 'turn-on-haskell-doc-mode)
 (add-hook 'haskell-mode-hook 'turn-on-haskell-indentation)
+(add-to-list 'completion-ignored-extensions ".hi")
+(add-hook 'haskell-mode-hook 'interactive-haskell-mode)
+
 (eval-after-load "haskell-mode"
   '(progn
     (define-key haskell-mode-map (kbd "C-x C-d") nil)

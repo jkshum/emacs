@@ -1,6 +1,6 @@
 ;(setq debug-on-error t)
-(setenv "PATH" "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/usr/local/share/npm/bin:~/android-sdk/tools:~/android-sdk/platform-tools:/Applications/ghc-7.8.3.app/Contents/bin:")
-(setq exec-path (append exec-path '("/usr/local/bin" "/opt/local/bin" "/Applications/ghc-7.8.3.app/Contents/bin")))
+(setenv "PATH" "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin:/usr/local/share/npm/bin:~/android-sdk/tools:~/android-sdk/platform-tools:/Users/jkshum/.cabal/bin:/Applications/ghc-7.8.3.app/Contents/bin:")
+(setq exec-path (append exec-path '("/usr/local/bin" "/opt/local/bin" "/Users/jkshum/.cabal/bin" "/Applications/ghc-7.8.3.app/Contents/bin")))
 
 (setq package-list  '(zenburn-theme
                       ace-jump-mode
@@ -108,25 +108,25 @@
 
 ;js repl
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
-(setq inferior-js-program-command "/usr/local/bin/node")
-(setq inferior-js2-mode-hook
-      (lambda ()
-        ;; We like nice colors
-        (ansi-color-for-comint-mode-on)
-        ;; Deal wi
-	th some prompt nonsense
-        (add-to-list
-         'comint-preoutput-filter-functions
-         (lambda (output)
-           (replace-regexp-in-string "\033\\[[0-9]+[GK]" "" output)))))
+;; (setq inferior-js-program-command "/usr/local/bin/node")
+;; (setq inferior-js2-mode-hook
+;;       (lambda ()
+;;         ;; We like nice colors
+;;         (ansi-color-for-comint-mode-on)
+;;         ;; Deal wi
+;; 	th some prompt nonsense
+;;         (add-to-list
+;;          'comint-preoutput-filter-functions
+;;          (lambda (output)
+;;            (replace-regexp-in-string "\033\\[[0-9]+[GK]" "" output)))))
 
 (add-hook 'js2-mode-hook '(lambda ()
 			    (tern-mode t)
- 			    (local-set-key "\C-x\C-e" 'js-send-last-sexp)
-			    (local-set-key "\C-\M-x" 'js-send-last-sexp-and-go)
-			    (local-set-key "\C-cb" 'js-send-buffer)
-			    (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
-			    (local-set-key "\C-c\C-l" 'js-load-file-and-go)
+ 			    ;; (local-set-key "\C-x\C-e" 'js-send-last-sexp)
+			    ;; (local-set-key "\C-\M-x" 'js-send-last-sexp-and-go)
+			    ;; (local-set-key "\C-cb" 'js-send-buffer)
+			    ;; (local-set-key "\C-c\C-b" 'js-send-buffer-and-go)
+			    ;; (local-set-key "\C-c\C-l" 'js-load-file-and-go)
 			    ))
 (eval-after-load 'tern
    '(progn
@@ -154,8 +154,8 @@
 
 ;; --- Obj-C switch between header and source ---
 
-(setq yas-snippet-dirs
-      '("~/.emacs.d/el-get/yasnippet/snippets"))
+;; (setq yas-snippet-dirs
+;;       '("~/.emacs.d/el-get/yasnippet/snippets"))
 
 (load (expand-file-name "~/quicklisp/slime-helper.el"))
 (setq inferior-lisp-program "/usr/local/bin/sbcl")
@@ -176,6 +176,18 @@
     (define-key haskell-mode-map (kbd "C-c M-.") nil)
     (define-key haskell-mode-map (kbd "C-c C-d") nil)))
 
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "146d24de1bb61ddfa64062c29b5ff57065552a7c4019bee5d869e938782dfc2a" default)))
+ '(haskell-process-log t)
+ '(haskell-process-type (quote cabal-repl))
+ '(inferior-haskell-wait-and-jump t))
+
 (eval-after-load 'flycheck
   '(add-hook 'flycheck-mode-hook #'flycheck-haskell-setup))
 
@@ -185,14 +197,7 @@
         (e (if mark-active (max (point) (mark)) (point-max))))
     (shell-command-on-region b e
      "python -mjson.tool" (current-buffer) t)))
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-safe-themes
-   (quote
-    ("06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "146d24de1bb61ddfa64062c29b5ff57065552a7c4019bee5d869e938782dfc2a" default))))
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

@@ -75,7 +75,7 @@
 
 ;load theme fonts
 (set-face-attribute 'default nil :height 140)
-(load-theme 'sanityinc-tomorrow-night)
+(load-theme 'solarized-light)
 (add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
 (set-frame-font "Monaco 14")
 
@@ -183,7 +183,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "146d24de1bb61ddfa64062c29b5ff57065552a7c4019bee5d869e938782dfc2a" default)))
+    ("4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "146d24de1bb61ddfa64062c29b5ff57065552a7c4019bee5d869e938782dfc2a" default)))
  '(haskell-process-log t)
  '(haskell-process-type (quote cabal-repl))
  '(inferior-haskell-wait-and-jump t))

@@ -75,7 +75,7 @@
 
 ;load theme fonts
 (set-face-attribute 'default nil :height 140)
-(load-theme 'solarized-light)
+(load-theme 'sanityinc-tomorrow-night)
 (add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
 (set-frame-font "Monaco 14")
 
@@ -99,12 +99,12 @@
 ;auto save desktop session
 (desktop-save-mode 1)
 (global-auto-complete-mode t)
-
+(show-paren-mode t)
 ;python
 ;(add-hook 'python-mode-hook 'auto-complete-mode)
-(add-hook 'python-mode-hook 'jedi:ac-setup)
-(add-hook 'after-init-hook #'global-flycheck-mode)
-(setq jedi:server-command '("~/.emacs.d/el-get/jedi/jediepcserver.py"))
+;(add-hook 'python-mode-hook 'jedi:ac-setup)
+;(add-hook 'after-init-hook #'global-flycheck-mode)
+;(setq jedi:server-command '("~/.emacs.d/el-get/jedi/jediepcserver.py"))
 
 ;js repl
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
@@ -148,14 +148,7 @@
 (setq auto-save-file-name-transforms
       `((".*" ,temporary-file-directory t))) 
 
-;(add-hook 'after-init-hook 'global-company-mode)
-
 (yas-global-mode 1) ;; or M-x yas-reload-all if you've started YASnippet already.
-
-;; --- Obj-C switch between header and source ---
-
-;; (setq yas-snippet-dirs
-;;       '("~/.emacs.d/el-get/yasnippet/snippets"))
 
 (load (expand-file-name "~/quicklisp/slime-helper.el"))
 (setq inferior-lisp-program "/usr/local/bin/sbcl")
@@ -163,19 +156,18 @@
 (add-hook 'haskell-mode-hook 'turn-on-haskell-doc-mode)
 (add-hook 'haskell-mode-hook 'turn-on-haskell-indentation)
 
-
 (eval-after-load "haskell-mode"
   '(progn
-     (define-key haskell-mode-map (kbd "M-.") 'haskell-mode-jump-to-def)
-     (define-key haskell-mode-map (kbd "C-x C-d") nil)
-    (define-key haskell-mode-map (kbd "C-c C-z") 'haskell-interactive-switch)
-    (define-key haskell-mode-map (kbd "C-c C-l") 'haskell-process-load-file)
-    (define-key haskell-mode-map (kbd "C-c C-b") 'haskell-interactive-switch)
-    (define-key haskell-mode-map (kbd "C-c C-t") 'haskell-process-do-type)
-    (define-key haskell-mode-map (kbd "C-c C-i") 'haskell-process-do-info)
-    (define-key haskell-mode-map (kbd "C-c M-.") nil)
-    (define-key haskell-mode-map (kbd "C-c C-d") nil)))
+     (define-key haskell-mode-map (kbd "C-c C-l") 'haskell-process-load-or-reload)
+     (define-key haskell-mode-map (kbd "C-c C-z") 'haskell-interactive-bring)
+     (define-key haskell-mode-map (kbd "C-c C-t") 'haskell-process-do-type)
+     (define-key haskell-mode-map (kbd "C-c C-i") 'haskell-process-do-info)
+     (define-key haskell-mode-map (kbd "C-c C-c") 'haskell-process-cabal-build)
+     (define-key haskell-mode-map (kbd "C-c C-k") 'haskell-interactive-mode-clear)
+     (define-key haskell-mode-map (kbd "C-c c") 'haskell-process-cabal)
+     (define-key haskell-mode-map (kbd "SPC") 'haskell-mode-contextual-space)))
 
+;; custom haskell-mode settings
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -183,7 +175,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "146d24de1bb61ddfa64062c29b5ff57065552a7c4019bee5d869e938782dfc2a" default)))
+    ("06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" default)))
  '(haskell-process-log t)
  '(haskell-process-type (quote cabal-repl))
  '(inferior-haskell-wait-and-jump t))
@@ -204,4 +196,3 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-
